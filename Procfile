@@ -1,1 +1,1 @@
-worker: python teste01.py
+worker: python newfile.py
