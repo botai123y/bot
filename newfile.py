@@ -5,7 +5,7 @@ import string
 from random import *
 from time import sleep
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("1464884358:AAHXHr8m2Kd_3M_yKPF1jL53_dvAbmlotH0")
 
 PRIVADO = []
 #
