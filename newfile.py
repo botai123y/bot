@@ -5,9 +5,9 @@ import string
 from random import *
 from time import sleep
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("1438847659:AAHQQVPjbVqH2Zy766exu9uvDPASp8VhBS0")
 
-PRIVADO = []
+PRIVADO = [1484706029,1490314214]
 #
 #
 GRUPO = []
