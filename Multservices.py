@@ -10,14 +10,7 @@ bot = telebot.TeleBot('1464884358:AAHXHr8m2Kd_3M_yKPF1jL53_dvAbmlotH0')
 PRIVADO = [1484706029,1490314214]
 #
 #
-GRUPO = [-100132716332, -1057504279, 
--100132053418, -100127483601, 
--1001274836019, -1001389985605, 
--1001380957255, -1001112418087,
--1001424971640, -1001405031853,
--1001209811135, -100126008770,
- -100120808817, -1001208088170,
- -1001492248783, -1001469285573, -1001357422890]
+GRUPO = [-1001357422890, -1001145542520]
 #
 #
 EXCEPT = [-100132053418, -1001274836019,
@@ -33,12 +26,12 @@ def boavinda(message1):
     liste = PRIVADO
     if ide in liste:
 
-        bot.	reply_to(message1, '<b>' '😎 OBA, VOCÊ TEM ACESSO! 😎' '</b>', parse_mode='HTML')
+        bot.	reply_to(message1, '<b>' '👑 VOCÊ TEM ACESSO VIP 👑' '</b>', parse_mode='HTML')
         bot.send_message(ide, '✅ ' '<b>' 'use ' '</b>''<code>' '/menu' '</code>''<b>' ' e veja os comandos' '</b>' ' ✅', parse_mode='HTML')
     
     else:
-        bot.reply_to(message1, '<b>' + '🚫 ' + '@'+message1.chat.username + ' VOCÊ NÃO TEM ACESSO! 🚫' '</b>', parse_mode='HTML')
-        bot.send_message(ide, '<b>' '✅ Adquira acesso com @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+        bot.reply_to(message1, '<b>' + '🚫 ' + '@'+message1.chat.username + ' ❌ VOCÊ NÃO TEM ACESSO VIP ❌' '</b>', parse_mode='HTML')
+        bot.send_message(ide, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
         
 @bot.message_handler(commands=['cpf'])
 def zn(nome):
@@ -55,7 +48,7 @@ def zn(nome):
                     op = req()['data_nasc'][6:10]
                     jog = 2020 - int(op)
                     reeq = url.json()
-                    hels = bot.reply_to(nome, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' + '<b>' '• CPF: ' '</b>' '<code>' + req()['cpf'] + '</code>' '\n' + '<b>' '• CNS: ' '</b>' '<code>' + req()['cns'] + '</code>' '\n' + '<b>' '• NOME: ' '</b>' '<code>' + req()['nome'] + '</code>' '\n' + '<b>' '• NASCIMENTO: ' '</b>' '<code>' + req()['data_nasc'] + '</code>' '\n' + '<b>' '• IDADE: ' '</b>' '<code>' + str(jog) + '</code>' + '\n' + '<b>' '• MÃE: ' '</b>' '<code>' + req()['nomeMae'] + '</code>' '\n' + '<b>' '• PAI: ' '</b>' '<code>' + req()['nomePai'] + '</code>' '\n' + '<b>' '• RAÇA COR: ' '</b>' '<code>' + req()['descricaoRacaCor'] + '</code>' '\n' + '<b>' '• SEXO: ' '</b>' '<code>' + req()['descricaoSexo'] + '</code>' '\n' + '<b>' '• MUNICIPIO NASC: ' '</b>' '<code>' + req()['municipioNasc'] + '</code>' '\n' + '<b>' '• ESTADO NASC: ' '</b>' '<code>' + req()['estadoNasc'] + '</code>' '\n\n' + '<b>' '• LOGRADOURO: ' '</b>' '<code>' + req()['nomeLogradouro'] + '</code>' '\n' + '<b>' '• NÚMERO: ' '</b>' '<code>' + req()['numero'] + '</code>' '\n' + '<b>' '• COMPLEMENTO: ' '</b>' '<code>' + req()['complemento'] + '</code>' '\n' + '<b>' '• BAIRRO: ' '</b>' '<code>' + req()['bairro'] + '</code>' '\n' + '<b>' '• CEP: ' '</b>' '<code>' + req()['numeroCEP'] + '</code>' '\n' + '<b>' '• MUNICIPIO: ' '</b>' '<code>' + req()['nomeMunicipio'] + '</code>' '\n' + '<b>' '• UF: ' '</b>' '<code>' + req()['siglaUF'] + '</code>' '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + req()['nomeUF'] + '</code>' '\n' + '<b>' '• PAÍS: ' '</b>' '<code>' + req()['nomePais'] + '</code>' '\n\n' + '<b>' '• TELEFONE: ' '</b>' '<code>' + str(reeq['telefone'][0]['numero']) + '</code>' + '\n' + '<b>' '• DD: ' '</b>' '<code>' + str(reeq['telefone'][0]['dd']) + '</code>' + '\n' + '<b>' '• TIPO: ' '</b>' '<code>' + str(reeq['telefone'][0]['tipo']) + '</code>' + '\n\n' + '<b>' '• RG: ' '</b>' '<code>' + str(req()['dadosRg'][0]['numeroIdentidade']) + '</code>' + '\n' + '<b>' '• IDENTIFICADOR: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['identificador'][10:20]) + '</code>' + '\n' + '<b>' '• EXPEDIÇÃO: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['dataExpedicao']) + '</code>' + '\n' + '<b>' '• EMISSOR: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['nomeOrgaoEmissor']) + '</code>' + '\n' + '<b>' '• SIGLA: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['siglaOrgaoEmissor']) + '</code>' + '\n' + '<b>' '• NIS: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['identificadorNis'][9:20]) + '</code>' + '\n' + '<b>' '• DOCUMENTO: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['numeroDocumento']) + '</code>' + '\n\n' + '<b>' '• CERTIDÃO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['identificador'][9:20]) + '</code>' + '\n' + '<b>' '• TIPO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['TipoCertidao']) + '</code>' + '\n' + '<b>' '• CARTORIO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['nomeCartorio']) + '</code>' + '\n' + '<b>' '• LIVRO/FOLHA: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['livro']) + '</code>' + '\n' + '<b>' '• TERMO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['termo']) + '</code>' + '\n' + '<b>' '• EMISSÃO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['dataEmissaoCertidao']) + '</code>' + '\n\n' + '<b>' '• GRUPO: @StarkConsultas' '\n' '• GRUPO²: @StarkConsultas' '\n' '• GRUPO³: @StarkRefs' '</b>', parse_mode='HTML')
+                    hels = bot.reply_to(nome, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• CPF: ' '</b>' '<code>' + req()['cpf'] + '</code>' '\n' + '<b>' '• CNS: ' '</b>' '<code>' + req()['cns'] + '</code>' '\n' + '<b>' '• NOME: ' '</b>' '<code>' + req()['nome'] + '</code>' '\n' + '<b>' '• NASCIMENTO: ' '</b>' '<code>' + req()['data_nasc'] + '</code>' '\n' + '<b>' '• IDADE: ' '</b>' '<code>' + str(jog) + '</code>' + '\n' + '<b>' '• MÃE: ' '</b>' '<code>' + req()['nomeMae'] + '</code>' '\n' + '<b>' '• PAI: ' '</b>' '<code>' + req()['nomePai'] + '</code>' '\n' + '<b>' '• RAÇA COR: ' '</b>' '<code>' + req()['descricaoRacaCor'] + '</code>' '\n' + '<b>' '• SEXO: ' '</b>' '<code>' + req()['descricaoSexo'] + '</code>' '\n' + '<b>' '• MUNICIPIO NASC: ' '</b>' '<code>' + req()['municipioNasc'] + '</code>' '\n' + '<b>' '• ESTADO NASC: ' '</b>' '<code>' + req()['estadoNasc'] + '</code>' '\n\n' + '<b>' '• LOGRADOURO: ' '</b>' '<code>' + req()['nomeLogradouro'] + '</code>' '\n' + '<b>' '• NÚMERO: ' '</b>' '<code>' + req()['numero'] + '</code>' '\n' + '<b>' '• COMPLEMENTO: ' '</b>' '<code>' + req()['complemento'] + '</code>' '\n' + '<b>' '• BAIRRO: ' '</b>' '<code>' + req()['bairro'] + '</code>' '\n' + '<b>' '• CEP: ' '</b>' '<code>' + req()['numeroCEP'] + '</code>' '\n' + '<b>' '• MUNICIPIO: ' '</b>' '<code>' + req()['nomeMunicipio'] + '</code>' '\n' + '<b>' '• UF: ' '</b>' '<code>' + req()['siglaUF'] + '</code>' '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + req()['nomeUF'] + '</code>' '\n' + '<b>' '• PAÍS: ' '</b>' '<code>' + req()['nomePais'] + '</code>' '\n\n' + '<b>' '• TELEFONE: ' '</b>' '<code>' + str(reeq['telefone'][0]['numero']) + '</code>' + '\n' + '<b>' '• DD: ' '</b>' '<code>' + str(reeq['telefone'][0]['dd']) + '</code>' + '\n' + '<b>' '• TIPO: ' '</b>' '<code>' + str(reeq['telefone'][0]['tipo']) + '</code>' + '\n\n' + '<b>' '• RG: ' '</b>' '<code>' + str(req()['dadosRg'][0]['numeroIdentidade']) + '</code>' + '\n' + '<b>' '• IDENTIFICADOR: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['identificador'][10:20]) + '</code>' + '\n' + '<b>' '• EXPEDIÇÃO: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['dataExpedicao']) + '</code>' + '\n' + '<b>' '• EMISSOR: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['nomeOrgaoEmissor']) + '</code>' + '\n' + '<b>' '• SIGLA: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['siglaOrgaoEmissor']) + '</code>' + '\n' + '<b>' '• NIS: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['identificadorNis'][9:20]) + '</code>' + '\n' + '<b>' '• DOCUMENTO: ' '</b>' '<code>' + str(reeq['dadosRg'][0]['numeroDocumento']) + '</code>' + '\n\n' + '<b>' '• CERTIDÃO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['identificador'][9:20]) + '</code>' + '\n' + '<b>' '• TIPO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['TipoCertidao']) + '</code>' + '\n' + '<b>' '• CARTORIO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['nomeCartorio']) + '</code>' + '\n' + '<b>' '• LIVRO/FOLHA: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['livro']) + '</code>' + '\n' + '<b>' '• TERMO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['termo']) + '</code>' + '\n' + '<b>' '• EMISSÃO: ' '</b>' '<code>' + str(reeq['dadosCertidao'][0]['dataEmissaoCertidao']) + '</code>' + '\n\n' + '<b>' '• GRUPO: @StarkConsultas' '\n' '• GRUPO²: @StarkConsultas' '\n' '• GRUPO³: @StarkRefs' '</b>', parse_mode='HTML')
                     hells = bot.reply_to(nome, '<b>' '🚮 CONSULTA SE APAGARÁ EM 1 MINUTO 🚮' '</b>', parse_mode='HTML')
                     sleep(60)
                     bot.delete_message(id1, hels.message_id)
@@ -64,7 +57,7 @@ def zn(nome):
                 except:
                 	bot.reply_to(nome, '<b>' 'TÁ ERRADO, IDIOTA!' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
                 		
 ##
 
@@ -87,7 +80,7 @@ def lbz(men):
                     r = json.loads(res)
                     if str(r['success']) == str('True'):
 
-                        bot.reply_to(men, '\n         ㅤ   ㅤ<b>🔍 DADOS BIN 🔎</b>\n▱▱▱▱▱▱▱▱▱▱▱▱▱\n\n<b>• BIN</b>: ' + '<code>' + str(
+                        bot.reply_to(men, '\n         ㅤ   ㅤ<b>🔍 CONSULTA VIP 🔎</b>\n▱▱▱▱▱▱▱▱▱▱▱▱▱\n\n<b>• BIN</b>: ' + '<code>' + str(
                             r['number']['iin']) + '</code>' + '\n' +
                                      '<b>• BANDEIRA</b>: ' + '<code>' + str(r['scheme']) + '</code>' + '\n' +
                                      '<b>• TIPO</b>: ' + '<code>' + str(r['type']) + '</code>' + '\n' +
@@ -102,7 +95,7 @@ def lbz(men):
                     else:
                         bot.reply_to(men, '<b>VEJA O EXEMPLO</b>: "' + '<code>' + '/bin 651652' + '</code>' + '"', parse_mode='HTML')
                 except:
-                    bot.reply_to(men, '<b>⚠ DIGITE UMA BIN VIADO ⚠</b>', parse_mode='HTML')
+                    bot.reply_to(men, '<b>DIGITE UMA BIN</b>', parse_mode='HTML')
 
 ##
 
@@ -112,15 +105,15 @@ def bno(men):
     bid = men.chat.id
     mensagem = men.text
     if men.text == '/cep':
-        bot.reply_to(men, '<b>' + '⚠ DIGITE UM CEP ⚠' + '</b>', parse_mode='HTML')
+        bot.reply_to(men, '<b>' + 'DIGITE UM CEP' + '</b>', parse_mode='HTML')
     if men.text == '/CEP':
-        bot.reply_to(men, '<b>' + '⚠ DIGITE UM CEP ⚠' + '</b>', parse_mode='HTML')
+        bot.reply_to(men, '<b>' + 'DIGITE UM CEP' + '</b>', parse_mode='HTML')
     else:
         try:
         	ipp = re.sub('[^0-9]', '', mensagem)
         	url = requests.get('http://geradorapp.com/api/v1/cep/search/' + ipp + '?token=63ba0d201147617b1e3c050623f36841')
         	reqi = url.json
-        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA DE CEP 🔎' '</b>' + '\n▱▱▱▱▱▱▱▱▱▱▱▱▱\n\n' + '<b>' '• CEP: ' '</b>' '<code>' + ipp + '</code>' '\n' + '<b>' '• UF: ' '</b>' '<code>' + reqi()['data']['state'] + '</code>' '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + reqi()['data']['state_name'] + '</code>' '\n' + '<b>' '• CIDADE: ' '</b>' '<code>' + reqi()['data']['city'] + '</code>' '\n\n' + '<b>' '• LOGRADOURO: ' '</b>' '<code>' + reqi()['data']['address'] + '</code>' '\n' + '<b>' '• BAIRRO: ' '</b>' '<code>' + reqi()['data']['district'] + '</code>' '\n' + '<b>' '• NAME: ' '</b>' '<code>' + reqi()['data']['address_name'] + '</code>' '\n' + '<b>' '• IBGE: ' '</b>' '<code>' + reqi()['data']['city_code'] + '</code>' '\n' + '<b>' '• STATUS: ' '</b>' '<code>' + reqi()['data']['status'] + '</code>' '\n' + '<b>' '• MENSAGEM: ' '</b>' '<code>' + reqi()['data']['message'] + '</code>' '\n\n▱▱▱▱▱▱▱▱▱▱▱▱▱\n' + '<b>' '• GRUPO: @StarkConsultas' + '\n' + '• GRUPO²: @StarkConsultas' + '\n' + '• GRUPO³: @StarkRefs' + '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA VIP 🔎' '</b>' + '\n▱▱▱▱▱▱▱▱▱▱▱▱▱\n\n' + '<b>' '• CEP: ' '</b>' '<code>' + ipp + '</code>' '\n' + '<b>' '• UF: ' '</b>' '<code>' + reqi()['data']['state'] + '</code>' '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + reqi()['data']['state_name'] + '</code>' '\n' + '<b>' '• CIDADE: ' '</b>' '<code>' + reqi()['data']['city'] + '</code>' '\n\n' + '<b>' '• LOGRADOURO: ' '</b>' '<code>' + reqi()['data']['address'] + '</code>' '\n' + '<b>' '• BAIRRO: ' '</b>' '<code>' + reqi()['data']['district'] + '</code>' '\n' + '<b>' '• NAME: ' '</b>' '<code>' + reqi()['data']['address_name'] + '</code>' '\n' + '<b>' '• IBGE: ' '</b>' '<code>' + reqi()['data']['city_code'] + '</code>' '\n' + '<b>' '• STATUS: ' '</b>' '<code>' + reqi()['data']['status'] + '</code>' '\n' + '<b>' '• MENSAGEM: ' '</b>' '<code>' + reqi()['data']['message'] + '</code>' '\n\n▱▱▱▱▱▱▱▱▱▱▱▱▱\n' + '<b>' '• GRUPO: @StarkConsultas' + '\n' + '• GRUPO²: @StarkConsultas' + '\n' + '• GRUPO³: @StarkRefs' + '</b>', parse_mode='HTML')
         except:
                    bot.reply_to(men, '<b>' + 'OPS, TA ERRADO ;(' + '</b>', parse_mode='HTML')
 
@@ -132,7 +125,7 @@ def bniio(men):
     bid = men.chat.id
     mensagem = men.text
     if men.text == '/menuu':
-        bot.reply_to(men, '<b>' + '⚠ ERRADO SEU VIADO ⚠' + '</b>', parse_mode='HTML')
+        bot.reply_to(men, '<b>' + 'ERRADO' + '</b>', parse_mode='HTML')
     else:
         try:
         	bot.reply_to(men, '<b>' '🔍 MENU DO BOT 🔎' '</b>' + '\n\n' + '<b>' '[+] CEP:</b><code> /cep 89874000' '</code>' + '\n' + '<b>' '[+] BIN:</b><code> /bin 545323' + '</code>' '\n' + '<b>' '[+] CNPJ:</b><code> /cnpj 27865757000102' + '</code>' '\n' + '<b>' '[+] CPF: ' '</b>''<code>' '/cpf 29993559806' '</code>' + '\n' + '<b>' '[+] TRABALHOS: ' '</b>''<code>' '/trabalhos 29993559806' '</code>' + '\n' + '<b>' '[+] TELEFONE: ' '</b>' '<code>' + '/tel 49991059058' + '</code>' + '\n' + '<b>' '[+] NOME: ' '</b>' '<code>' + '/nome Jhonny Carvalho' + '</code>' + '\n' + '<b>' '[+] VIZINHOS: ' '</b>' '<code>' + '/vizinhos 03493217528' + '</code>' + '\n' + '<b>' '[+] CEP V2: ' '</b>' '<code>' + '/cepe 89874970' + '</code>' + '\n' + '<b>' '[+] CPF V2: ' '</b>' '<code>' + '/master 29993559806' + '</code>' + '\n' + '<b>' '[+] EMAIL: ' '</b>' '<code>' + '/email alexandre.akl@ig.com.br' + '</code>' + '\n' + '<b>' '[+] PARENTES: ' '</b>' '<code>' + '/parentes 03655915993' + '</code>' + '\n' + '<b>' '[+] IP: ' '</b>' '<code>' + '/ip 204.152.203.157' + '</code>' + '\n' + '<b>' '[+] PLACA: ' '</b>' + '<code>' '/placa GTJ6699' '</code>' + '\n\n' + '<b>' '[+] CHK CC: </b><code>/chkcc 6509079001042420' '</code>' '\n\n' + '<b>' '[+] GERAR CPF:</b><code> /gencpf' '</code>' + '\n' + '<b>' '[+] GERAR EMAIL:</b><code> /genemail' + '</code>' + '\n' + '<b>' '[+] GERAR CNPJ:</b><code> /gencnpj' + '</code>' '\n\n' + '<b>' '[+] VALIDAR CPF:</b><code> /validar 03655915993' + '</code>' + '\n\n' + '<b>' '[+] ID: ' '</b>' '<code>' + '/id' + '</code>' + '\n\n' + '<b>🔛 BY: @StarkVendasOFC</b>' , parse_mode='HTML')
@@ -146,15 +139,15 @@ def bnio(men):
     bid = men.chat.id
     mensagem = men.text
     if men.text == '/validar':
-        bot.reply_to(men, '<b>' + '⚠ DIGITE UM CPF ⚠' + '</b>', parse_mode='HTML')
+        bot.reply_to(men, '<b>' + 'DIGITE UM CPF' + '</b>', parse_mode='HTML')
     if men.text == '/VALIDAR':
-        bot.reply_to(men, '<b>' + '⚠ DIGITE UM CPF ⚠' + '</b>', parse_mode='HTML')
+        bot.reply_to(men, '<b>' + 'DIGITE UM CPF' + '</b>', parse_mode='HTML')
     else:
         try:
         	ip = re.sub('[^0-9]', '', mensagem)
         	urrl = requests.get("http://geradorapp.com/api/v1/cpf/validate/" + ip + "?token=63ba0d201147617b1e3c050623f36841")
         	reeq = urrl.json
-        	bot.reply_to(men, '<b>' 'ㅤ🔍 VALIDAR CPF 🔎' + '</b>' +'\n▱▱▱▱▱▱▱▱▱▱▱\n\n' + '<b>' + '• CPF: ' + '</b>' + '<code>' + reeq()['data']['number_formatted'] + '</code>' + '\n' + '<b>' + '• NOME: ' + '</b>' + '<code>' + 'N/A' + '</code>' + '\n' + '<b>' + '• SITUAÇÃO: ' + '</b>' + '<code>' + reeq()['data']['message'] + '</code>' + '\n\n▱▱▱▱▱▱▱▱▱▱▱\n' + '<b>' + '• GRUPO: @StarkConsultas' + '\n' + '• GRUPO²: @StarkConsultas' + '\n' + '• GRUPO³: @StarkRefs' + '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA VIP 🔎' + '</b>' +'\n▱▱▱▱▱▱▱▱▱▱▱\n\n' + '<b>' + '• CPF: ' + '</b>' + '<code>' + reeq()['data']['number_formatted'] + '</code>' + '\n' + '<b>' + '• NOME: ' + '</b>' + '<code>' + 'N/A' + '</code>' + '\n' + '<b>' + '• SITUAÇÃO: ' + '</b>' + '<code>' + reeq()['data']['message'] + '</code>' + '\n\n▱▱▱▱▱▱▱▱▱▱▱\n' + '<b>' + '• GRUPO: @StarkConsultas' + '\n' + '• GRUPO²: @StarkConsultas' + '\n' + '• GRUPO³: @StarkRefs' + '</b>', parse_mode='HTML')
         except:
                     bot.reply_to(men, '<b>' + 'OPS, CPF INVÁLIDO OU NÃO ENCONTRADO! :(' + '</b>', parse_mode='HTML')
 
@@ -166,9 +159,9 @@ def bnioo(men):
     bid = men.chat.id
     mensagem = men.text
     if men.text == '/cnpj':
-        bot.reply_to(men, '⚠ 𝘿𝙄𝙂𝙄𝙏𝙀 𝙐𝙈 𝘾𝙉𝙋𝙅, 𝙄𝘿𝙄𝙊𝙏𝘼 ⚠')
+        bot.reply_to(men, '𝘿𝙄𝙂𝙄𝙏𝙀 𝙐𝙈 𝘾𝙉𝙋𝙅')
     if men.text == '/CNPJ':
-        bot.reply_to(men, '⚠ 𝘿𝙄𝙂𝙄𝙏𝙀 𝙐𝙈 𝘾𝙉𝙋𝙅, 𝙄𝘿𝙄𝙊𝙏𝘼 ⚠')
+        bot.reply_to(men, '𝘿𝙄𝙂𝙄𝙏𝙀 𝙐𝙈 𝘾𝙉𝙋𝙅')
     else:
         try:
         	ip = re.sub('[^0-9]', '', mensagem)
@@ -179,7 +172,7 @@ def bnioo(men):
         	o = url.text
         	req = json.loads(o)
         
-        	bot.reply_to(men, 'ㅤㅤㅤㅤㅤ🔍 𝘿𝘼𝘿𝙊𝙎 𝘾𝙉𝙋𝙅 🔎' +
+        	bot.reply_to(men, 'ㅤㅤㅤㅤㅤ🔍 CONSULTA VIP 🔎' +
 '▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n𝘾𝙉𝙋𝙅: ' '<code>' + str(req['result']['cnpj']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n𝙏𝙄𝙋𝙊: ' '<code>' + str(req['result']['tipo']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n' +
                      '𝙉𝙊𝙈𝙀: ' '<code>' + str(req['result']['nome']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n' +
                      '𝙏𝙀𝙇𝙀𝙁𝙊𝙉𝙀𝙎: ' '<code>' + str(req['result']['telefone']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n' +
@@ -199,7 +192,7 @@ def bnioo(men):
                      '𝘼𝙏𝙄𝙑𝙄𝘿𝘼𝘿𝙀 𝙎𝙀𝘾𝙐𝙉𝘿𝘼́𝙍𝙄𝘼: ' '<code>' + str(req['result']['atividadeSecundaria']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n' +
                      '𝘿𝘼𝙏𝘼 𝙎𝙄𝙏𝙐𝘼𝘾̧𝘼̃𝙊: ' '<code>' + str(req['result']['dataSituacao']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n' + '𝙐𝙁: ' '<code>' + str(req['result']['estado']) + '</code>' '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n' + '𝘿𝙊𝙉𝙊𝙎: ' '<code>' + str(req['result']['qsa']) + '</code>'  '\n▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱\n𝙂𝙍𝙐𝙋𝙊:  @StarkConsultas\n𝘾𝘼𝙉𝘼𝙇:  @StarkRefs', parse_mode='HTML')
         except:
-                     	bot.reply_to(men, '𝙊𝙋𝙎, 𝘾𝙉𝙋𝙅 𝙉𝘼̃𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝘿𝙊 𝙂𝘼𝘿𝙊 🐂')
+                     	bot.reply_to(men, '𝙊𝙋𝙎, 𝘾𝙉𝙋𝙅 𝙉𝘼̃𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝘿𝙊')
 
 ##
 
@@ -219,7 +212,7 @@ def zion(nome):
                 except:
                 	bot.reply_to(nome, '<b>' '#Reproved ' + ipo + ' ❌' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
 
 ##
 
@@ -350,7 +343,7 @@ def zbsn(nome):
                     ip = re.sub('[^0-9]', '', msg)
                     url = requests.get("https://apicarros.com/v1/consulta/" + ipp + ip + "/json", verify=False)
                     req = url.json()
-                    helss = bot.reply_to(nome, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' + '<b>' '• PLACA: ' '</b>''<code>' + req['placa'] + '</code>' + '\n' + '<b>' '• ANO: ' '</b>''<code>' + req['ano'] + '</code>' + '\n' + '<b>' '• CHASSI: ' '</b>''<code>' + req['chassi'] + '</code>' + '\n' + '<b>' '• COR: ' '</b>''<code>' + req['cor'] + '</code>' + '\n' + '<b>' '• DATA: ' '</b>''<code>' + req['data'] + '</code>' + '\n' + '<b>' '• ALARME: ' '</b>''<code>' + req['dataAtualizacaoAlarme'] + '</code>' + '\n' + '<b>' '• VEÍCULO: ' '</b>''<code>' + req['dataAtualizacaoCaracteristicasVeiculo'] + '</code>' + '\n' + '<b>' '• ROUBO/FURTO: ' '</b>''<code>' + req['dataAtualizacaoRouboFurto'] + '</code>' + '\n\n' + '<b>' '• MARCA: ' '</b>''<code>' + req['marca'] + '</code>' + '\n' + '<b>' '• MODELO: ' '</b>''<code>' + req['modelo'] + '</code>' + '\n\n' + '<b>' '• MUNICÍPIO: ' '</b>''<code>' + req['municipio'] + '</code>' + '\n' + '<b>' '• UF: ' '</b>''<code>' + req['uf'] + '</code>' + '\n\n' + '<b>' '• SITUAÇÃO: ' '</b>''<code>' + req['situacao'] + '</code>' + '\n\n' + '<b>' + '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' + '</b>',parse_mode='HTML')
+                    helss = bot.reply_to(nome, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• PLACA: ' '</b>''<code>' + req['placa'] + '</code>' + '\n' + '<b>' '• ANO: ' '</b>''<code>' + req['ano'] + '</code>' + '\n' + '<b>' '• CHASSI: ' '</b>''<code>' + req['chassi'] + '</code>' + '\n' + '<b>' '• COR: ' '</b>''<code>' + req['cor'] + '</code>' + '\n' + '<b>' '• DATA: ' '</b>''<code>' + req['data'] + '</code>' + '\n' + '<b>' '• ALARME: ' '</b>''<code>' + req['dataAtualizacaoAlarme'] + '</code>' + '\n' + '<b>' '• VEÍCULO: ' '</b>''<code>' + req['dataAtualizacaoCaracteristicasVeiculo'] + '</code>' + '\n' + '<b>' '• ROUBO/FURTO: ' '</b>''<code>' + req['dataAtualizacaoRouboFurto'] + '</code>' + '\n\n' + '<b>' '• MARCA: ' '</b>''<code>' + req['marca'] + '</code>' + '\n' + '<b>' '• MODELO: ' '</b>''<code>' + req['modelo'] + '</code>' + '\n\n' + '<b>' '• MUNICÍPIO: ' '</b>''<code>' + req['municipio'] + '</code>' + '\n' + '<b>' '• UF: ' '</b>''<code>' + req['uf'] + '</code>' + '\n\n' + '<b>' '• SITUAÇÃO: ' '</b>''<code>' + req['situacao'] + '</code>' + '\n\n' + '<b>' + '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' + '</b>',parse_mode='HTML')
                     hellss = bot.reply_to(nome, '<b>' '🚮 CONSULTA SE APAGARÁ EM 30 SEGUNDOS 🚮' '</b>', parse_mode='HTML')
                     sleep(30)
                     bot.delete_message(id1, helss.message_id)
@@ -359,7 +352,7 @@ def zbsn(nome):
                 except:
                 	bot.reply_to(nome, '<b>' 'TÁ ERRADO, IDIOTA!' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
 
 ####
 
@@ -375,7 +368,7 @@ def byti(men):
             permitidos = PRIVADO + GRUPO + EXCEPT
             if int(chtid) in permitidos:
                 if men.text == '/vizinhos':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL!' '</b>' ,
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>' ,
                                  parse_mode='HTML')
 
                 else:
@@ -400,14 +393,14 @@ def byti(men):
                                    str(envia.split("<div class='itemMoradores'>")[3].split("<")[0][3:40]) + '\n' + str(envia.split("<div class='itemMoradores'>")[4].split("<")[0][3:40]) +'\n'+ \
                                    str(envia.split("<div class='itemMoradores'>")[5].split("<")[0][3:40])
 
-                            bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' '</b>' , parse_mode='HTML')
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' '</b>' , parse_mode='HTML')
                         except:
                             try:
                                 viz1 = str(envia.split("<div class='itemMoradores'>")[1].split("<")[0][3:40]) + '\n' + \
                                        str(envia.split("<div class='itemMoradores'>")[2].split("<")[0][3:40])
 
                                 bot.reply_to(men,
-                                             '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' '</b>',
+                                             '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' '</b>',
                                              parse_mode='HTML')
                             except:
                                 bot.reply_to(men, '<b>NENHUM VIZINHO ENCONTRADO</b>', parse_mode='HTML')
@@ -418,7 +411,7 @@ def byti(men):
                         bot.reply_to(men, '<b>OPS, NENHUM VIZINHO ENCONTRADO </b>', parse_mode="HTML")
 
             else:
-                bot.reply_to(men, '<b>✅ Compre acesso com @StarkVendasOFC ✅</b>',
+                bot.reply_to(men, '<b>✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅</b>',
                              parse_mode='HTML')
 
 ##
@@ -430,9 +423,9 @@ def bxniy(men):
             if bid in liberadoip:
                 mensagem = men.text
                 if men.text == '/ip':
-                    bot.reply_to(men, '<b>' 'DIGITE UM IP, ANIMAL!' '</b>', parse_mode='HTML')
+                    bot.reply_to(men, '<b>' 'DIGITE UM IP' '</b>', parse_mode='HTML')
                 elif men.text == '/IP':
-                    bot.reply_to(men, '<b>' 'DIGITE UM IP, ANIMAL!' '</b>', parse_mode='HTML')
+                    bot.reply_to(men, '<b>' 'DIGITE UM IP' '</b>', parse_mode='HTML')
                 else:
                     try:
                         ip = re.sub('[^0-9.]', '', mensagem)
@@ -454,7 +447,7 @@ def bxniy(men):
                     except:
                         bot.reply_to(men, '<b>IP NÃO ENCONTRADO</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>✅ Compre acesso com @StarkVendasOFC ✅</b>', parse_mode='HTML')
+                bot.reply_to(men, '<b>✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅</b>', parse_mode='HTML')
 
 ##
 
@@ -474,11 +467,11 @@ def validnum(nome):
                     ip = re.sub('[^0-9+]', '', msg)
                     url = requests.get('http://apilayer.net/api/validate?access_key=5c6f98a2e42e805b281f5b1b53df68df&number=' + ip + '&country_code=&format=1')
                     req = url.json
-                    bot.reply_to(nome, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' + '<b>' '• VÁLIDO: ' '</b>' '<code>' + str(req()['valid']) + '</code>' + '\n' + '<b>' '• NÚMERO: ' '</b>' '<code>' + str(req()['international_format']) + '</code>' + '\n' + '<b>' '• CODE PAÍS: ' '</b>' '<code>' + str(req()['country_prefix']) + '</code>' + '\n' + '<b>' '• SIGLA: ' '</b>' '<code>' + str(req()['country_code']) + '</code>' + '\n' + '<b>' '• PAÍS: ' '</b>' '<code>' + str(req()['country_name']) + '</code>' + '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + str(req()['location']) + '</code>' + '\n' + '<b>' '• OPERADORA: ' '</b>' '<code>' + str(req()['carrier']) + '</code>' + '\n' '<b>' '• TIPO: ' '</b>' '<code>' + str(req()['line_type']) + '</code>' + '\n\n' + '<b>' + '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' '</b>' , parse_mode='HTML')
+                    bot.reply_to(nome, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VÁLIDO: ' '</b>' '<code>' + str(req()['valid']) + '</code>' + '\n' + '<b>' '• NÚMERO: ' '</b>' '<code>' + str(req()['international_format']) + '</code>' + '\n' + '<b>' '• CODE PAÍS: ' '</b>' '<code>' + str(req()['country_prefix']) + '</code>' + '\n' + '<b>' '• SIGLA: ' '</b>' '<code>' + str(req()['country_code']) + '</code>' + '\n' + '<b>' '• PAÍS: ' '</b>' '<code>' + str(req()['country_name']) + '</code>' + '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + str(req()['location']) + '</code>' + '\n' + '<b>' '• OPERADORA: ' '</b>' '<code>' + str(req()['carrier']) + '</code>' + '\n' '<b>' '• TIPO: ' '</b>' '<code>' + str(req()['line_type']) + '</code>' + '\n\n' + '<b>' + '• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs' '</b>' , parse_mode='HTML')
                 except:
                 	bot.reply_to(nome, '<b>' 'TÁ ERRADO, IDIOTA!' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
 
 ##
 
@@ -492,10 +485,10 @@ def parentes(men):
                 oi = str(mensagem[7:])
 
                 if men.text == '/parentes':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 elif men.text == '/PARENTES':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 else:
 
@@ -516,7 +509,7 @@ def parentes(men):
                         cpf3 = re.sub('[^0-9]', '', txt3)
                         dados3 = str(ar1[3].text)
 
-                        bot.reply_to(men, '<b>' '🔍 PARENTES LOCALIZADOS 🔎' '</b>' + '\n\n' +
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                     '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                      parse_mode='HTML')
                     except:
@@ -529,7 +522,7 @@ def parentes(men):
                             cpf2 = re.sub('[^0-9]', '', txt2)
                             dados2 = str(ar1[2].text)
 
-                            bot.reply_to(men, '<b>' '🔍 PARENTES LOCALIZADOS 🔎' '</b>' + '\n\n' +
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                         '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                          parse_mode='HTML')
                         except:
@@ -537,13 +530,13 @@ def parentes(men):
                                 txt = ar[0].html
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
-                                bot.reply_to(men, '<b>' '🔍 PARENTES LOCALIZADOS 🔎' '</b>' + '\n\n' +
+                                bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                             '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                              parse_mode='HTML')
                             except:
                                 N = bot.reply_to(men, '<b>OPS, PARENTES NÃO ECONTRADOS!</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>',
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>',
                              parse_mode='HTML')
 
 ##
@@ -555,10 +548,10 @@ def bijgh(men):
             if int(idee) in permitidos:
 
                 if men.text == '/master':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL!' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 elif men.text == '/MASTER':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL!' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 else:
                     try:
@@ -670,7 +663,7 @@ def bijgh(men):
                         except:
                             cep = 'X\n'
 
-                        bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n<b>NOME: </b><code>' + str(
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n<b>NOME: </b><code>' + str(
                             resp['nome']) + '</code>\n' + '<b>CPF: </b><code>' + str(resp['cpf']) + '</code>\n\n' +
                                      '<b>NOME MÃE: </b><code>' + str(
                             resp['nomeMae']) + '</code>\n' + '<b>NOME PAI: </b><code>' + str(
@@ -701,7 +694,7 @@ def bijgh(men):
                     except:
                         A = bot.reply_to(men, '<b>' 'OPS, NÃO ENCONTRADO!' '</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>',
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>',
                              parse_mode='HTML')
 
 ###########
@@ -714,10 +707,10 @@ def beroi(men):
                 session = requests_html.HTMLSession()
 
                 if men.text == '/tel':
-                    bot.reply_to(men, '<b>DIGITE UM NÚMERO, ANIMAL!</b>',
+                    bot.reply_to(men, '<b>DIGITE UM NÚMERO</b>',
                                  parse_mode='HTML')
                 elif men.text == '/TEL':
-                    bot.reply_to(men, '<b>DIGITE UM NÚMERO, ANIMAL!</b>',
+                    bot.reply_to(men, '<b>DIGITE UM NÚMERO</b>',
                                  parse_mode='HTML')
                 else:
 
@@ -760,7 +753,7 @@ def beroi(men):
                                 txt = ar[0].html
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
-                                bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' + '<code>' +
+                                bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<code>' +
                                              dados + '</code>' + '\n<b>CPF: </b>' '<code>' + cpf + '</code>' + '\n\n<b>• GRUPO: @StarkConsultas\n• GRUPO²: @StarkConsultas\n• GRUPO³: @StarkRefs</b>',
                                              parse_mode='HTML')
                             except:
@@ -770,7 +763,7 @@ def beroi(men):
 
 
             else:
-                bot.reply_to(men, '<b>' '✅ Compre acesso com @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
 
 ###########
 
@@ -784,10 +777,10 @@ def sjjsn(nome):
 
                 session = requests_html.HTMLSession()
                 if men == '/nome':
-                    bot.reply_to(nome, '<b>DIGITE UM NOME, ANIMAL!</b>',
+                    bot.reply_to(nome, '<b>DIGITE UM NOME</b>',
                                  parse_mode='HTML')
                 elif men == '/NOME':
-                    bot.reply_to(nome, '<b>DIGITE UM NOME, ANIMAL!</b>',
+                    bot.reply_to(nome, '<b>DIGITE UM NOME</b>',
                                  parse_mode='HTML')
                 else:
                     try:
@@ -1217,7 +1210,7 @@ def sjjsn(nome):
                     except:
                         bot.reply_to(nome, '<b>ALGO DEU ERRADO :(</b>', parse_mode='HTML')
             else:
-                bot.reply_to(nome, '<b>✅ Compre acesso com @StarkVendasOFC ✅</b>',
+                bot.reply_to(nome, '<b>✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅</b>',
                              parse_mode='HTML')
 
 ###########
@@ -1232,10 +1225,10 @@ def bqpwi(men):
                 oi = str(mensagem[7:])
 
                 if men.text == '/email':
-                    bot.reply_to(men, '<b>' 'DIGITE UM EMAIL, ANIMAL' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM EMAIL' '</b>',
                                  parse_mode='HTML')
                 elif men.text == '/EMAIL':
-                    bot.reply_to(men, '<b>' 'DIGITE UM EMAIL, ANIMAL' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM EMAIL' '</b>',
                                  parse_mode='HTML')
                 else:
 
@@ -1256,7 +1249,7 @@ def bqpwi(men):
                         cpf3 = re.sub('[^0-9]', '', txt3)
                         dados3 = str(ar1[3].text)
 
-                        bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' +
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                     '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                      parse_mode='HTML')
                     except:
@@ -1269,7 +1262,7 @@ def bqpwi(men):
                             cpf2 = re.sub('[^0-9]', '', txt2)
                             dados2 = str(ar1[2].text)
 
-                            bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' +
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                         '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkRefs\nGRUPO³: @StarkRefs</b>',
                                          parse_mode='HTML')
                         except:
@@ -1277,13 +1270,13 @@ def bqpwi(men):
                                 txt = ar[0].html
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
-                                bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n' +
+                                bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                             '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                              parse_mode='HTML')
                             except:
                                 N = bot.reply_to(men, '<b>OPS, EMAIL NÃO ECONTRADO!</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ Compre acesso com @StarkVendasOFC✅' '</b>',
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' '</b>',
                              parse_mode='HTML')
 
 ##
@@ -1298,10 +1291,10 @@ def parentes(men):
                 oi = str(mensagem[7:])
 
                 if men.text == '/parentes':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 elif men.text == '/PARENTES':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 else:
 
@@ -1322,7 +1315,7 @@ def parentes(men):
                         cpf3 = re.sub('[^0-9]', '', txt3)
                         dados3 = str(ar1[3].text)
 
-                        bot.reply_to(men, '<b>' '🔍 PARENTES LOCALIZADO 🔎' '</b>' + '\n\n' +
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                     '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                      parse_mode='HTML')
                     except:
@@ -1335,7 +1328,7 @@ def parentes(men):
                             cpf2 = re.sub('[^0-9]', '', txt2)
                             dados2 = str(ar1[2].text)
 
-                            bot.reply_to(men, '<b>' '🔍 PARENTES LOCALIZADO 🔎' '</b>' + '\n\n' +
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                         '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                          parse_mode='HTML')
                         except:
@@ -1343,13 +1336,13 @@ def parentes(men):
                                 txt = ar[0].html
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
-                                bot.reply_to(men, '<b>' '🔍 PARENTES LOCALIZADO 🔎' '</b>' + '\n\n' +
+                                bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
                                             '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
                                              parse_mode='HTML')
                             except:
                                 N = bot.reply_to(men, '<b>OPS, PARENTES NÃO ECONTRADO!</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ Compre acesso com @StarkVendasOFC✅' '</b>',
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' '</b>',
                              parse_mode='HTML')
 
 ##
@@ -1361,10 +1354,10 @@ def bijbbbgh(men):
             if int(ideee) in permitidos:
 
                 if men.text == '/master':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL!' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 elif men.text == '/MASTER':
-                    bot.reply_to(men, '<b>' 'DIGITE UM CPF, ANIMAL!' '</b>',
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
                                  parse_mode='HTML')
                 else:
                     try:
@@ -1476,7 +1469,7 @@ def bijbbbgh(men):
                         except:
                             cep = 'X\n'
 
-                        bot.reply_to(men, '<b>' '🔍 CONSULTA REALIZADA 🔎' '</b>' + '\n\n<b>NOME: </b><code>' + str(
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n<b>NOME: </b><code>' + str(
                             resp['nome']) + '</code>\n' + '<b>CPF: </b><code>' + str(resp['cpf']) + '</code>\n\n' +
                                      '<b>NOME MÃE: </b><code>' + str(
                             resp['nomeMae']) + '</code>\n' + '<b>NOME PAI: </b><code>' + str(
@@ -1507,7 +1500,7 @@ def bijbbbgh(men):
                     except:
                         A = bot.reply_to(men, '<b>' 'OPS, NÃO ENCONTRADO!' '</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ Compre acesso com @StarkVendasOFC✅' '</b>',
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' '</b>',
                              parse_mode='HTML')
 
 ##########
@@ -1520,13 +1513,13 @@ def bunda(message1):
             if ideee in lib:
                 if message1.text == '/trabalhos':
                     help1 = bot.reply_to(message1,
-                                         '<b>DIGITE UM CPF, ANIMAL!</b>', parse_mode='HTML' )
+                                         '<b>DIGITE UM CPF</b>', parse_mode='HTML' )
                     sleep(10)
                     bot.delete_message(ideee, help1.message_id)
                     bot.delete_message(ideee, message1.message_id)
                 elif message1.text == '/TRABALHOS':
                     help2 = bot.reply_to(message1,
-                                         '<b>DIGITE UM CPF, ANIMAL!</b>', parse_mode='HTML')
+                                         '<b>DIGITE UM CPF</b>', parse_mode='HTML')
                     sleep(10)
                     bot.delete_message(ideee, help2.message_id)
                     bot.delete_message(ideee, message1.message_id)
@@ -2091,7 +2084,7 @@ def bunda(message1):
 
             else:
                 bot.reply_to(message1,
-                             '<b>' + '✅ Adquira acesso com meu @StarkVendasOFC✅' + '</b>',
+                             '<b>' + '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' + '</b>',
                              parse_mode='HTML')
 
 ##
@@ -2105,9 +2098,9 @@ def jhgfuhn(nome):
 
                 session = requests_html.HTMLSession()
                 if men == '/cepe':
-                    bot.reply_to(nome, '<b>DIGITE UM CEP!"</b>', parse_mode='HTML')
+                    bot.reply_to(nome, '<b>DIGITE UM CEP"</b>', parse_mode='HTML')
                 elif men == '/CEPE':
-                    bot.reply_to(nome, '<b>DIGITE UM CEP!"</b>', parse_mode='HTML')
+                    bot.reply_to(nome, '<b>DIGITE UM CEP"</b>', parse_mode='HTML')
                 else:
                     try:
                         bn = re.sub('[^0-9]', '', men)
@@ -2667,7 +2660,7 @@ def jhgfuhn(nome):
                     except:
                         bot.reply_to(nome, '<b>ALGO DEU ERRADO</b>', parse_mode='HTML')
             else:
-                bot.reply_to(nome, '<b>COMPRE ACESSO COM @@StarkVendasOFC</b>',
+                bot.reply_to(nome, '<b>COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC</b>',
                              parse_mode='HTML')
 
 bot.polling()
