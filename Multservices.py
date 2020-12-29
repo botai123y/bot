@@ -71,7 +71,7 @@ def lbz(men):
             bid = men.chat.id
             cp = men.text
             if bid in notbin:
-                bot.reply_to(men, '⚠ 𝙘𝙤𝙣𝙨𝙪𝙡𝙩𝙖 𝙙𝙚 𝙗𝙞𝙣 𝙙𝙚𝙨𝙖𝙩𝙞𝙫𝙖𝙙𝙖 𝙥𝙖𝙧𝙖 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤 ⚠')
+                bot.reply_to(men, 'CONSULTA BIN ESTÁ DESATIVADA NESSE GRUPO')
             else:
                 try:
                     bn = re.sub('[^0-9]', '', cp)
