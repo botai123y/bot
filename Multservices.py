@@ -893,4 +893,1774 @@ def sjjsn(nome):
                         except:
                             try:
                                 bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
-                                                                                              a
+                                                                                              ar[0].html) + '\n\n' +
+                                             str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[5].html) + '\n\n' +
+                                             str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[10].html) + '\n\n' +
+                                             str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[15].html) + '\n\n' +
+                                             str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[20].html) + '\n\n' +
+                                             str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[25].html) + '\n\n' +
+                                             str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[30].html) + '\n\n' +
+                                             str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[35].html) + '\n\n' +
+                                             str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[40].html) + '\n\n' +
+                                             str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[45].html) + '\n\n' +
+                                             str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[50].html) + '\n\n' +
+                                             str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[55].html) + '\n\n' +
+                                             str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[60].html) + '\n\n' +
+                                             str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[65].html) + '\n\n' +
+                                             str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[70].html) + '\n\n' +
+                                             str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[75].html) + '\n\n' +
+                                             str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[80].html) + '\n\n' +
+                                             str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[85].html) + '\n\n' +
+                                             str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[90].html) + '\n\n' +
+                                             str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[95].html) + '\n\n' +
+                                             str(ar1[21].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[100].html) + '\n\n' +
+                                             str(ar1[22].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[105].html) + '\n\n' +
+                                             str(ar1[23].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[110].html) + '\n\n' +
+                                             str(ar1[24].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[115].html) + '\n\n' +
+                                             str(ar1[25].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[120].html) + '\n\n' +
+                                             str(ar1[26].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[125].html) + '\n\n' +
+                                             str(ar1[27].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[130].html) + '\n\n' +
+                                             str(ar1[28].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[135].html) + '\n\n' +
+                                             str(ar1[29].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[140].html) + '\n\n' +
+                                             str(ar1[30].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[145].html) + '\n\n' +
+                                             str(ar1[31].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[150].html) + '\n\n' +
+                                             str(ar1[32].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[155].html) + '\n\n' +
+                                             str(ar1[33].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[160].html) + '\n\n' +
+                                             str(ar1[34].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[165].html) + '\n\n' +
+                                             str(ar1[35].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[170].html) + '\n\n' +
+                                             str(ar1[36].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[175].html) + '\n\n' +
+                                             str(ar1[37].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[180].html) + '\n\n' +
+                                             str(ar1[38].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[185].html) + '\n\n' +
+                                             str(ar1[39].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                         ar[190].html) + '\n\n' +
+                                             str(ar1[40].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                    195].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>', parse_mode='HTML')
+                            except:
+                                try:
+                                    bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                  ar[0].html) + '\n\n' +
+                                                 str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[5].html) + '\n\n' +
+                                                 str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[10].html) + '\n\n' +
+                                                 str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[15].html) + '\n\n' +
+                                                 str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[20].html) + '\n\n' +
+                                                 str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[25].html) + '\n\n' +
+                                                 str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[30].html) + '\n\n' +
+                                                 str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[35].html) + '\n\n' +
+                                                 str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[40].html) + '\n\n' +
+                                                 str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[45].html) + '\n\n' +
+                                                 str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[50].html) + '\n\n' +
+                                                 str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[55].html) + '\n\n' +
+                                                 str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[60].html) + '\n\n' +
+                                                 str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[65].html) + '\n\n' +
+                                                 str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[70].html) + '\n\n' +
+                                                 str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[75].html) + '\n\n' +
+                                                 str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[80].html) + '\n\n' +
+                                                 str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[85].html) + '\n\n' +
+                                                 str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[90].html) + '\n\n' +
+                                                 str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[95].html) + '\n\n' +
+                                                 str(ar1[21].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[100].html) + '\n\n' +
+                                                 str(ar1[22].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[105].html) + '\n\n' +
+                                                 str(ar1[23].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[110].html) + '\n\n' +
+                                                 str(ar1[24].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[115].html) + '\n\n' +
+                                                 str(ar1[25].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[120].html) + '\n\n' +
+                                                 str(ar1[26].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[125].html) + '\n\n' +
+                                                 str(ar1[27].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[130].html) + '\n\n' +
+                                                 str(ar1[28].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[135].html) + '\n\n' +
+                                                 str(ar1[29].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[140].html) + '\n\n' +
+                                                 str(ar1[30].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[145].html) + '\n\n')
+                                except:
+                                    try:
+                                        bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                            0].html) + '\n\n' +
+                                                     str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[5].html) + '\n\n' +
+                                                     str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[10].html) + '\n\n' +
+                                                     str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[15].html) + '\n\n' +
+                                                     str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[20].html) + '\n\n' +
+                                                     str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[25].html) + '\n\n' +
+                                                     str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[30].html) + '\n\n' +
+                                                     str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[35].html) + '\n\n' +
+                                                     str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[40].html) + '\n\n' +
+                                                     str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[45].html) + '\n\n' +
+                                                     str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[50].html) + '\n\n' +
+                                                     str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[55].html) + '\n\n' +
+                                                     str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[60].html) + '\n\n' +
+                                                     str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[65].html) + '\n\n' +
+                                                     str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[70].html) + '\n\n' +
+                                                     str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[75].html) + '\n\n' +
+                                                     str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[80].html) + '\n\n' +
+                                                     str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[85].html) + '\n\n' +
+                                                     str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[90].html) + '\n\n' +
+                                                     str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                            95].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>', parse_mode='HTML')
+                                    except:
+                                        try:
+                                            bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                          ar[
+                                                                                                              0].html) + '\n\n' +
+                                                         str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                5].html) + '\n\n' +
+                                                         str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                10].html) + '\n\n' +
+                                                         str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                15].html) + '\n\n' +
+                                                         str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                20].html) + '\n\n' +
+                                                         str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                25].html) + '\n\n' +
+                                                         str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                30].html) + '\n\n' +
+                                                         str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                35].html) + '\n\n' +
+                                                         str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                40].html) + '\n\n' +
+                                                         str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                45].html) + '\n\n' +
+                                                         str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                50].html) + '\n\n' +
+                                                         str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                55].html) + '\n\n' +
+                                                         str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                60].html) + '\n\n' +
+                                                         str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                65].html) + '\n\n' +
+                                                         str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                70].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>', parse_mode='HTML')
+                                        except:
+                                            try:
+                                                bot.reply_to(nome,
+                                                             str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            0].html) + '\n\n' +
+                                                             str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            5].html) + '\n\n' +
+                                                             str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            10].html) + '\n\n' +
+                                                             str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            15].html) + '\n\n' +
+                                                             str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            20].html) + '\n\n' +
+                                                             str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            25].html) + '\n\n' +
+                                                             str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            30].html) + '\n\n' +
+                                                             str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            35].html) + '\n\n' +
+                                                             str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            40].html) + '\n\n' +
+                                                             str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                         ar[
+                                                                                                             45].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                                             parse_mode='HTML')
+                                            except:
+                                                try:
+                                                    bot.reply_to(nome,
+                                                                 str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                0].html) + '\n\n' +
+                                                                 str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                5].html) + '\n\n' +
+                                                                 str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                10].html) + '\n\n' +
+                                                                 str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                15].html) + '\n\n' +
+                                                                 str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                20].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                                                 parse_mode='HTML')
+                                                except:
+                                                    try:
+                                                        bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                            '[^0-9]', '', ar[0].html) + '\n\n' +
+                                                                     str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                            '[^0-9]', '', ar[5].html) + '\n\n' +
+                                                                     str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                            '[^0-9]', '', ar[10].html) + '\n\n' +
+                                                                     str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                            '[^0-9]', '',
+                                                            ar[15].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                                                     parse_mode='HTML')
+                                                    except:
+                                                        try:
+                                                            bot.reply_to(nome,
+                                                                         str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                             '[^0-9]', '', ar[0].html) + '\n\n' +
+                                                                         str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                             '[^0-9]', '', ar[5].html) + '\n\n' +
+                                                                         str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                             '[^0-9]', '', ar[
+                                                                                 10].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                                                         parse_mode='HTML')
+                                                        except:
+                                                            try:
+                                                                bot.reply_to(nome,
+                                                                             str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                                 '[^0-9]', '',
+                                                                                 ar[0].html) + '\n\n' +
+                                                                             str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                                 '[^0-9]', '',
+                                                                                 ar[
+                                                                                     5].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                                                             parse_mode='HTML')
+                                                            except:
+                                                                try:
+                                                                    bot.reply_to(nome, str(
+                                                                        ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                               '',
+                                                                                                               ar[
+                                                                                                                   0].html) + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                                                                 parse_mode='HTML')
+                                                                except:
+                                                                    bot.reply_to(nome, '<b>OPS, SEM RESULTADOS!</b>',
+                                                                                 parse_mode='HTML')
+                    except:
+                        bot.reply_to(nome, '<b>ALGO DEU ERRADO :(</b>', parse_mode='HTML')
+            else:
+                bot.reply_to(nome, '<b>✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC ✅</b>',
+                             parse_mode='HTML')
+
+###########
+
+@bot.message_handler(commands=['email'] + ['EMAIL'])
+def bqpwi(men):
+            idee = men.chat.id
+            permitidos = PRIVADO + GRUPO + EXCEPT
+            if int(idee) in permitidos:
+                session = requests_html.HTMLSession()
+                mensagem = men.text
+                oi = str(mensagem[7:])
+
+                if men.text == '/email':
+                    bot.reply_to(men, '<b>' 'DIGITE UM EMAIL' '</b>',
+                                 parse_mode='HTML')
+                elif men.text == '/EMAIL':
+                    bot.reply_to(men, '<b>' 'DIGITE UM EMAIL' '</b>',
+                                 parse_mode='HTML')
+                else:
+
+                    r = session.get(
+                        'http://191.252.153.147/buscasjl.php?token=Pg6ZKyXcrYfzSG2TKqc1&email={}'.format(oi))
+                    ar = r.html.find("td")
+                    ar1 = r.html.find('tr')
+                    try:
+                        txt = ar[0].html
+                        cpf = re.sub('[^0-9]', '', txt)
+                        dados = str(ar1[1].text)
+
+                        txt2 = ar[5].html
+                        cpf2 = re.sub('[^0-9]', '', txt2)
+                        dados2 = str(ar1[2].text)
+
+                        txt3 = ar[10].html
+                        cpf3 = re.sub('[^0-9]', '', txt3)
+                        dados3 = str(ar1[3].text)
+
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
+                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                     parse_mode='HTML')
+                    except:
+                        try:
+                            txt = ar[0].html
+                            cpf = re.sub('[^0-9]', '', txt)
+                            dados = str(ar1[1].text)
+
+                            txt2 = ar[1].html
+                            cpf2 = re.sub('[^0-9]', '', txt2)
+                            dados2 = str(ar1[2].text)
+
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
+                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkRefs\nGRUPO³: @StarkRefs</b>',
+                                         parse_mode='HTML')
+                        except:
+                            try:
+                                txt = ar[0].html
+                                cpf = re.sub('[^0-9]', '', txt)
+                                dados = str(ar1[1].text)
+                                bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
+                                            '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                             parse_mode='HTML')
+                            except:
+                                N = bot.reply_to(men, '<b>OPS, EMAIL NÃO ECONTRADO!</b>', parse_mode='HTML')
+            else:
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' '</b>',
+                             parse_mode='HTML')
+
+##
+
+@bot.message_handler(commands=['parentes'] + ['PARENTES'])
+def parentes(men):
+            idee = men.chat.id
+            permitidos = PRIVADO + EXCEPT + GRUPO
+            if int(idee) in permitidos:
+                session = requests_html.HTMLSession()
+                mensagem = men.text
+                oi = str(mensagem[7:])
+
+                if men.text == '/parentes':
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
+                                 parse_mode='HTML')
+                elif men.text == '/PARENTES':
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
+                                 parse_mode='HTML')
+                else:
+
+                    r = session.get(
+                        'http://191.252.153.147/buscasjl.php?token=Pg6ZKyXcrYfzSG2TKqc1&parentes={}'.format(oi))
+                    ar = r.html.find("td")
+                    ar1 = r.html.find('tr')
+                    try:
+                        txt = ar[0].html
+                        cpf = re.sub('[^0-9]', '', txt)
+                        dados = str(ar1[1].text)
+
+                        txt2 = ar[5].html
+                        cpf2 = re.sub('[^0-9]', '', txt2)
+                        dados2 = str(ar1[2].text)
+
+                        txt3 = ar[10].html
+                        cpf3 = re.sub('[^0-9]', '', txt3)
+                        dados3 = str(ar1[3].text)
+
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
+                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                     parse_mode='HTML')
+                    except:
+                        try:
+                            txt = ar[0].html
+                            cpf = re.sub('[^0-9]', '', txt)
+                            dados = str(ar1[1].text)
+
+                            txt2 = ar[1].html
+                            cpf2 = re.sub('[^0-9]', '', txt2)
+                            dados2 = str(ar1[2].text)
+
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
+                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                         parse_mode='HTML')
+                        except:
+                            try:
+                                txt = ar[0].html
+                                cpf = re.sub('[^0-9]', '', txt)
+                                dados = str(ar1[1].text)
+                                bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
+                                            '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>',
+                                             parse_mode='HTML')
+                            except:
+                                N = bot.reply_to(men, '<b>OPS, PARENTES NÃO ECONTRADO!</b>', parse_mode='HTML')
+            else:
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' '</b>',
+                             parse_mode='HTML')
+
+##
+
+@bot.message_handler(commands=['master'] + ['MASTER'])
+def bijbbbgh(men):
+            ideee = men.chat.id
+            permitidos = PRIVADO + EXCEPT + GRUPO
+            if int(ideee) in permitidos:
+
+                if men.text == '/master':
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
+                                 parse_mode='HTML')
+                elif men.text == '/MASTER':
+                    bot.reply_to(men, '<b>' 'DIGITE UM CPF' '</b>',
+                                 parse_mode='HTML')
+                else:
+                    try:
+
+                        num = re.sub('[^0-9]', '', men.text)
+                        url = requests.get('http://191.252.157.10/getran.php?cpf={}'.format(num)).content
+                        resp = json.loads(url)
+                        try:
+                            tel = ('<b>CODIGO OPERADORA: </b><code>' + str(
+                                resp['telefone'][0]['codigo']) + '</code>\n' +
+                                   '<b>DDD: </b><code>' + str(resp['telefone'][0]['ddd']) + '</code>\n' +
+                                   '<b>NUMERO: </b><code>' + str(resp['telefone'][0]['numero']) + '</code>\n' +
+                                   '<b>TIPO: </b><code>' + str(resp['telefone'][0]['tipoDescricao']) + '</code>\n\n' +
+                                   '<b>CODIGO OPERADORA: </b><code>' + str(
+                                        resp['telefone'][1]['codigo']) + '</code>\n' +
+                                   '<b>DDD: </b><code>' + str(resp['telefone'][1]['ddd']) + '</code>\n' +
+                                   '<b>NUMERO: </b><code>' + str(resp['telefone'][1]['numero']) + '</code>\n' +
+                                   '<b>TIPO: </b><code>' + str(resp['telefone'][1]['tipoDescricao']) + '</code>\n\n' +
+                                   '<b>CODIGO OPERADORA: </b><code>' + str(
+                                        resp['telefone'][2]['codigo']) + '</code>\n' +
+                                   '<b>DDD: </b><code>' + str(resp['telefone'][2]['ddd']) + '</code>\n' +
+                                   '<b>NUMERO: </b><code>' + str(resp['telefone'][2]['numero']) + '</code>\n' +
+                                   '<b>TIPO: </b><code>' + str(resp['telefone'][2]['tipoDescricao']) + '</code>\n'
+                                   )
+                        except:
+                            try:
+                                tel = ('<b>CODIGO OPERADORA: </b><code>' + str(
+                                    resp['telefone'][0]['codigo']) + '</code>\n' +
+                                       '<b>DDD: </b><code>' + str(resp['telefone'][0]['ddd']) + '</code>\n' +
+                                       '<b>NUMERO: </b><code>' + str(resp['telefone'][0]['numero']) + '</code>\n' +
+                                       '<b>TIPO: </b><code>' + str(
+                                            resp['telefone'][0]['tipoDescricao']) + '</code>\n\n' +
+                                       '<b>CODIGO OPERADORA: </b><code>' + str(
+                                            resp['telefone'][1]['codigo']) + '</code>\n' +
+                                       '<b>DDD: </b><code>' + str(resp['telefone'][1]['ddd']) + '</code>\n' +
+                                       '<b>NUMERO: </b><code>' + str(resp['telefone'][1]['numero']) + '</code>\n' +
+                                       '<b>TIPO: </b><code>' + str(resp['telefone'][1]['tipoDescricao']) + '</code>\n')
+                            except:
+                                try:
+                                    tel = ('<b>CODIGO OPERADORA: </b><code>' + str(
+                                        resp['telefone'][0]['codigo']) + '</code>\n' +
+                                           '<b>DDD: </b><code>' + str(resp['telefone'][0]['ddd']) + '</code>\n' +
+                                           '<b>NUMERO: </b><code>' + str(resp['telefone'][0]['numero']) + '</code>\n' +
+                                           '<b>TIPO: </b><code>' + str(
+                                                resp['telefone'][0]['tipoDescricao']) + '</code>\n\n')
+                                except:
+                                    tel = 'NULL'
+                        try:
+                            certidao = ('<b>CODIGO: </b><code>' + str(resp['certidao'][0]['codigo']) + '</code>\n' +
+                                        '<b>TIPO: </b><code>' + str(resp['certidao'][0]['tipo']) + '</code>\n' +
+                                        '<b>MODELO: </b><code>' + str(resp['certidao'][0]['modelo']) + '</code>\n' +
+                                        '<b>CARTORIO: </b><code>' + str(resp['certidao'][0]['cartorio']) + '</code>\n' +
+                                        '<b>LIVRO: </b><code>' + str(resp['certidao'][0]['livro']) + '</code>\n' +
+                                        '<b>FOLHA: </b><code>' + str(resp['certidao'][0]['folha']) + '</code>\n' +
+                                        '<b>TERMO: </b><code>' + str(resp['certidao'][0]['termo']) + '</code>\n' +
+                                        '<b>EMISSÃO: </b><code>' + str(resp['certidao'][0]['dataEmissao']) + '</code>\n\n')
+                        except:
+                            certidao = 'NULL\n\n'
+                        try:
+                            cart = ('<b>CNS: </b><code>' + str(resp['cartoesAgregados'][0]['cns']) + '</code>\n' +
+                                    '<b>DADOS: </b><code>' + str(resp['cartoesAgregados'][0]['data']) + '</code>\n' +
+                                    '<b>MANUAL: </b><code>' + str(resp['cartoesAgregados'][0]['manual']) + '</code>\n' +
+                                    '<b>TIPO: </b><code>' + str(resp['cartoesAgregados'][0]['tipo']) + '</code>\n\n' +
+                                    '<b>CNS: </b><code>' + str(resp['cartoesAgregados'][1]['cns']) + '</code>\n' +
+                                    '<b>DADOS: </b><code>' + str(resp['cartoesAgregados'][1]['data']) + '</code>\n' +
+                                    '<b>MANUAL: </b><code>' + str(resp['cartoesAgregados'][1]['manual']) + '</code>\n' +
+                                    '<b>TIPO: </b><code>' + str(resp['cartoesAgregados'][1]['tipo']) + '</code>\n\n' +
+                                    '<b>CNS: </b><code>' + str(resp['cartoesAgregados'][2]['cns']) + '</code>\n' +
+                                    '<b>DADOS: </b><code>' + str(resp['cartoesAgregados'][2]['data']) + '</code>\n' +
+                                    '<b>MANUAL: </b><code>' + str(resp['cartoesAgregados'][2]['manual']) + '</code>\n' +
+                                    '<b>TIPO: </b><code>' + str(resp['cartoesAgregados'][2]['tipo']) + '</code>\n\n')
+                        except:
+                            try:
+                                cart = ('<b>CNS: </b><code>' + str(resp['cartoesAgregados'][0]['cns']) + '</code>\n' +
+                                        '<b>DADOS: </b><code>' + str(
+                                            resp['cartoesAgregados'][0]['data']) + '</code>\n' +
+                                        '<b>MANUAL: </b><code>' + str(
+                                            resp['cartoesAgregados'][0]['manual']) + '</code>\n' +
+                                        '<b>TIPO: </b><code>' + str(
+                                            resp['cartoesAgregados'][0]['tipo']) + '</code>\n\n' +
+                                        '<b>CNS: </b><code>' + str(resp['cartoesAgregados'][1]['cns']) + '</code>\n' +
+                                        '<b>DADOS: </b><code>' + str(
+                                            resp['cartoesAgregados'][1]['data']) + '</code>\n' +
+                                        '<b>MANUAL: </b><code>' + str(
+                                            resp['cartoesAgregados'][1]['manual']) + '</code>\n' +
+                                        '<b>TIPO: </b><code>' + str(
+                                            resp['cartoesAgregados'][1]['tipo']) + '</code>\n\n')
+                            except:
+                                try:
+                                    cart = ('<b>CNS: </b><code>' + str(
+                                        resp['cartoesAgregados'][0]['cns']) + '</code>\n' +
+                                            '<b>DADOS: </b><code>' + str(
+                                                resp['cartoesAgregados'][0]['data']) + '</code>\n' +
+                                            '<b>MANUAL: </b><code>' + str(
+                                                resp['cartoesAgregados'][0]['manual']) + '</code>\n' +
+                                            '<b>TIPO: </b><code>' + str(
+                                                resp['cartoesAgregados'][0]['tipo']) + '</code>\n\n')
+                                except:
+                                    cart = 'NULL\n'
+                        try:
+                            rgg = ('<b>NUMERO: </b><code>' + str(resp['rgNumero']) + '</code>\n' +
+                                   '<b>ORGAO EMISSOR: </b><code>' + str(resp['rgOrgaoEmissorDescricao']) + '</code>\n' +
+                                   '<b>UF RG: </b><code>' + str(resp['rgUf']) + '</code>\n' +
+                                   '<b>DATA EMISSÃO: </b><code>' + str(resp['rgDataEmissao']) + '</code>')
+                        except:
+                            rgg = 'NULL\n'
+                        try:
+                            cep = (str(resp['enderecoCep']))
+                        except:
+                            cep = 'X\n'
+
+                        bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n<b>NOME: </b><code>' + str(
+                            resp['nome']) + '</code>\n' + '<b>CPF: </b><code>' + str(resp['cpf']) + '</code>\n\n' +
+                                     '<b>NOME MÃE: </b><code>' + str(
+                            resp['nomeMae']) + '</code>\n' + '<b>NOME PAI: </b><code>' + str(
+                            resp['nomePai']) + '</code>\n\n' +
+                                     '<b>VIVO: </b><code>' + str(
+                            resp['vivo']) + '</code>\n' + '<b>SEXO DESCRIÇÃO: </b><code>' + str(
+                            resp['sexoDescricao']) + '</code>\n' +
+                                     '<b>COR: </b><code>' + str(
+                            resp['racaCorDescricao']) + '</code>\n' + '<b>DATA NASCIMENTO: </b><code>' + str(
+                            resp['dataNascimento']) + '</code>\n' +
+                                     '<b>NACIONALIDADE: </b><code>' + str(
+                            resp['nacionalidade']) + '</code>\n' + '<b>PAIS NASCIMENTO: </b><code>' + str(
+                            resp['paisNascimento']) + '</code>\n' +
+                                     '<b>MUNICIPIO DE NASCIMENTO: </b><code>' + str(
+                            resp['municipioNascimento']) + '</code>\n' + '<b>PAIS DE RESIDENCIA: </b><code>' + str(
+                            resp['paisResidenciaDescricao']) + '</code>\n\n<b>ENDEREÇO: </b>\n' +
+                                     '<b>MUNICIPIO: </b><code>' + str(
+                            resp['enderecoMunicipio']) + '</code>\n' + '<b>TIPO LOGRADOURO: </b><code>' + str(
+                            resp['enderecoTipoLogradouro']) + '</code>\n' +
+                                     '<b>LOGRADOURO: </b><code>' + str(
+                            resp['enderecoLogradouro']) + '</code>\n' + '<b>NUMERO: </b><code>' + str(
+                            resp['enderecoNumero']) + '</code>\n' +
+                                     '<b>COMPLEMENTO: </b><code>' + str(
+                            resp['enderecoComplemento']) + '</code>\n' + '<b>BAIRRO: </b><code>' + resp[
+                                         "enderecoBairro"] + '</code>\n' +
+                                     '<b>CEP: </b><code>' + cep + '</code>\n\n' + '<b>TELEFONES: </b>\n' + tel + '<b>RG: </b> \n\n' + rgg + '\n<b>CERTIDÃO: </b>\n\n' + certidao + '<b>CARTOES AGREGADOS: </b>\n\n' + cart
+                                     + '\n<b>GRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs</b>', parse_mode='HTML')
+                    except:
+                        A = bot.reply_to(men, '<b>' 'OPS, NÃO ENCONTRADO!' '</b>', parse_mode='HTML')
+            else:
+                bot.reply_to(men, '<b>' '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' '</b>',
+                             parse_mode='HTML')
+
+##########
+
+@bot.message_handler(commands=['trabalhos'] + ['TRABALHOS'])
+def bunda(message1):
+            ideee = message1.chat.id
+            text = message1.text
+            lib = PRIVADO + EXCEPT + GRUPO
+            if ideee in lib:
+                if message1.text == '/trabalhos':
+                    help1 = bot.reply_to(message1,
+                                         '<b>DIGITE UM CPF</b>', parse_mode='HTML' )
+                    sleep(10)
+                    bot.delete_message(ideee, help1.message_id)
+                    bot.delete_message(ideee, message1.message_id)
+                elif message1.text == '/TRABALHOS':
+                    help2 = bot.reply_to(message1,
+                                         '<b>DIGITE UM CPF</b>', parse_mode='HTML')
+                    sleep(10)
+                    bot.delete_message(ideee, help2.message_id)
+                    bot.delete_message(ideee, message1.message_id)
+                else:
+                    try:
+
+                        filtr = re.sub('[^0-9]', '', text)
+                        url = requests.get(
+                            'http://191.252.153.147/MasterTarget/teste.php?token=HhH2BXDKTSyNwhaZzyCh&cpf={}'.format(
+                                filtr)).content
+                        resp = json.loads(url)
+
+                        ##########################################
+                        try:
+                            ende = ('<b>TIPO LOGRADOURO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['tipoLogradouro']) + '</code>\n'
+                                                                                                           '<b>LOGRADOURO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['logradouro']) + '</code>\n'
+                                                                                                       '<b>NUMERO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['numero']) + '</code>\n'
+                                                                                                   '<b>COMPLEMENTO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['complemento']) + '</code>\n'
+                                                                                                        '<b>BAIRRO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['bairro']) + '</code>\n'
+
+                                                                                                   '<b>CIDADE: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['cidade']) + '</code>\n'
+                                                                                                   '<b>UF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0]['uf']) + '</code>\n'
+                                                                                               '<b>CEP: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][0][
+                                    'cep']) + '</code>\n\n' + '<b>TIPO LOGRADOURO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1]['tipoLogradouro']) + '</code>\n'
+                                                                                                           '<b>LOGRADOURO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1]['logradouro']) + '</code>\n'
+                                                                                                       '<b>NUMERO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1]['numero']) + '</code>\n'
+                                                                                                   '<b>COMPLEMENTO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1]['complemento']) + '</code>\n'
+                                                                                                        '<b>BAIRRO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1]['bairro']) + '</code>\n'
+                                                                                                   '<b>CIDADE: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1]['cidade']) + '</code>\n'
+                                                                                                   '<b>UF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][1][
+                                    'uf']) + '</code>\n\n' + '<b>TIPO LOGRADOURO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'tipoLogradouro']) + '</code>\n' + '<b>LOGRADOURO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'logradouro']) + '</code>\n' + '<b>NUMERO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'numero']) + '</code>\n' + '<b>COMPLEMENTO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'complemento']) + '</code>\n' + '<b>BAIRRO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'bairro']) + '</code>\n' + '<b>CIDADE: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'cidade']) + '</code>\n' + '<b>UF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2][
+                                    'uf']) + '</code>\n' + '<b>CEP: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['endereco'][2]['cep']) + '</code>\n\n')
+                            # TRATAMENTO ENDEREÇO
+                        except:
+                            try:
+                                ende = ('<b>TIPO LOGRADOURO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0][
+                                        'tipoLogradouro']) + '</code>\n'
+                                                             '<b>LOGRADOURO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0]['logradouro']) + '</code>\n'
+                                                                                                           '<b>NUMERO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0]['numero']) + '</code>\n'
+                                                                                                       '<b>COMPLEMENTO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0]['complemento']) + '</code>\n'
+                                                                                                            '<b>BAIRRO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0]['bairro']) + '</code>\n'
+
+                                                                                                       '<b>CIDADE: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0]['cidade']) + '</code>\n'
+                                                                                                       '<b>UF: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0]['uf']) + '</code>\n'
+                                                                                                   '<b>CEP: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][0][
+                                        'cep']) + '</code>\n\n' + '<b>TIPO LOGRADOURO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1][
+                                        'tipoLogradouro']) + '</code>\n'
+                                                             '<b>LOGRADOURO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1]['logradouro']) + '</code>\n'
+                                                                                                           '<b>NUMERO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1]['numero']) + '</code>\n'
+                                                                                                       '<b>COMPLEMENTO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1]['complemento']) + '</code>\n'
+                                                                                                            '<b>BAIRRO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1]['bairro']) + '</code>\n'
+                                                                                                       '<b>CIDADE: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1]['cidade']) + '</code>\n'
+                                                                                                       '<b>UF: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['endereco'][1]['uf']) + '</code>\n\n')
+                            except:
+                                try:
+                                    ende = ('<b>TIPO LOGRADOURO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0][
+                                            'tipoLogradouro']) + '</code>\n'
+                                                                 '<b>LOGRADOURO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0][
+                                            'logradouro']) + '</code>\n'
+                                                             '<b>NUMERO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0]['numero']) + '</code>\n'
+                                                                                                           '<b>COMPLEMENTO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0][
+                                            'complemento']) + '</code>\n'
+                                                              '<b>BAIRRO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0]['bairro']) + '</code>\n'
+
+                                                                                                           '<b>CIDADE: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0]['cidade']) + '</code>\n'
+                                                                                                           '<b>UF: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0]['uf']) + '</code>\n'
+                                                                                                       '<b>CEP: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['endereco'][0]['cep']) + '</code>\n\n')
+                                except:
+                                    ende = 'ENDEREÇO NÃO ENCONTRADO'
+                        ##############################
+                        try:
+                            parent = ('<b>NOME: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['parentesco'][0]['nomeCompleto']) + '</code>\n'
+                                                                                                           '<b>CPF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['parentesco'][0][
+                                    'cpf']) + '</code>\n' + '<b>GRAU DE PARENTESCO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['parentesco'][0][
+                                    'grauDeParentesco']) + '</code>\n\n' + '<b>NOME: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['parentesco'][1]['nomeCompleto']) + '</code>\n'
+                                                                                                           '<b>CPF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['parentesco'][1][
+                                    'cpf']) + '</code>\n' + '<b>GRAU DE PARENTESCO: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['parentesco'][1][
+                                    'grauDeParentesco']) + '</code>\n\n')
+                            # TRATAMENTO PARENTESCO
+                        except:
+                            try:
+                                parent = ('<b>NOME: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['parentesco'][0][
+                                        'nomeCompleto']) + '</code>\n'
+                                                           '<b>CPF: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['parentesco'][0][
+                                        'cpf']) + '</code>\n' + '<b>GRAU DE PARENTESCO: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['parentesco'][0][
+                                        'grauDeParentesco']) + '</code>\n\n')
+                            except:
+                                parent = 'PARENTES NÃO ENCONTRADOS'
+                        #################################
+                        try:
+                            viz = ('<b>NOME: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                    'nomePrimeiro']) + ' </code><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                    'nomeMeio']) + ' </code><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                    'nomeUltimo']) + ' </code>\n' + '<b>CPF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                    'cpf']) + ' </code>\n\n' + '<b>NOME: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][1]['nomePrimeiro']) + ' ' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][1]['nomeMeio']) + ' ' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][1][
+                                    'nomeUltimo']) + '</code>\n<b>CPF: </b>' + '<code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][1][
+                                    'cpf']) + '</code>\n\n' + '<b>NOME: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][2][
+                                    'nomePrimeiro']) + ' </code><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][2][
+                                    'nomeMeio']) + ' </code><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][2][
+                                    'nomeUltimo']) + ' </code>\n' + '<b>CPF: </b><code>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['vizinho'][2][
+                                    'cpf']) + ' </code>\n\n')
+                            # TRATAMENTO VIZINHOS
+                        except:
+                            try:
+                                viz = ('<b>NOME: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                        'nomePrimeiro']) + ' </code><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                        'nomeMeio']) + ' </code><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                        'nomeUltimo']) + ' </code>\n' + '<b>CPF: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                        'cpf']) + ' </code>\n\n' + '<b>NOME: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][1]['nomePrimeiro']) + ' ' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][1]['nomeMeio']) + ' ' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][1][
+                                        'nomeUltimo']) + '</code>\n<b>CPF: </b>' + '<code>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['vizinho'][1][
+                                        'cpf']) + '</code>\n\n')
+                            except:
+                                try:
+                                    viz = ('<b>NOME: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                            'nomePrimeiro']) + ' </code><code>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                            'nomeMeio']) + ' </code><code>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                            'nomeUltimo']) + ' </code>\n' + '<b>CPF: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['vizinho'][0][
+                                            'cpf']) + ' </code>\n\n')
+                                except:
+                                    viz = 'SEM VIZINHOS'
+                        ################################
+                        try:
+                            emai = (str(resp['result'][0]['pessoa']['contato']['email'][0]['email']) + '\n' + str(
+                                resp['result'][0]['pessoa']['contato']['email'][1]['email']) + '\n' + str(
+                                resp['result'][0]['pessoa']['contato']['email'][2]['email']) + '\n')
+                            # TRATAMENTO EMAILS
+                        except:
+                            try:
+                                emai = (str(resp['result'][0]['pessoa']['contato']['email'][0]['email']) + '\n' + str(
+                                    resp['result'][0]['pessoa']['contato']['email'][1]['email']) + '\n')
+                            except:
+                                try:
+                                    emai = (str(resp['result'][0]['pessoa']['contato']['email'][0]['email']) + '\n')
+                                except:
+                                    emai = 'SEM EMAIL'
+                        ##############################
+                        try:
+                            tel = ('<b>DDD: </b><code>' + str(
+                                resp['result'][0]['pessoa']['contato']['telefone'][0]['ddd']) + '</code>\n' +
+                                   '<b>NUMERO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][0]['numero']) + '</code>\n' +
+                                   '<b>OPERADORA: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                            'operadora']) + '</code>\n' +
+                                   '<b>TIPO TELEFONE: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                            'tipoTelefone']) + '</code>\n\n' +
+                                   '<b>DDD:</b><code> ' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][1]['ddd']) + '</code>\n' +
+                                   '<b>NUMERO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][1]['numero']) + '</code>\n' +
+                                   '<b>OPERADORA: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][1][
+                                            'operadora']) + '</code>\n' +
+                                   '<b>TIPO TELEFONE: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][1][
+                                            'tipoTelefone']) + '</code>\n\n' +
+                                   '<b>DDD:</b><code> ' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][2]['ddd']) + '</code>\n' +
+                                   '<b>NUMERO: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][2]['numero']) + '</code>\n' +
+                                   '<b>OPERADORA: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][2][
+                                            'operadora']) + '</code>\n' +
+                                   '<b>TIPO TELEFONE: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][2][
+                                            'tipoTelefone']) + '</code>\n\n')
+                            # TRATAMENTO TELEFONES
+                            # TELEFONES
+                        except:
+                            try:
+                                tel = ('<b>DDD: </b><code>' + str(
+                                    resp['result'][0]['pessoa']['contato']['telefone'][0]['ddd']) + '</code>\n' +
+                                       '<b>NUMERO: </b><code>' + str(
+                                            resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                                'numero']) + '</code>\n' +
+                                       '<b>OPERADORA: </b><code>' + str(
+                                            resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                                'operadora']) + '</code>\n' +
+                                       '<b>TIPO TELEFONE: </b><code>' + str(
+                                            resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                                'tipoTelefone']) + '</code>\n\n' +
+                                       '<b>DDD: </b><code>' + str(resp['result'][0]['pessoa']['contato']['telefone'][1][
+                                                                      'ddd']) + '</code>\n' +
+                                       '<b>NUMERO: </b><code>' + str(
+                                            resp['result'][0]['pessoa']['contato']['telefone'][1][
+                                                'numero']) + '</code>\n' +
+                                       '<b>OPERADORA: </b><code>' + str(
+                                            resp['result'][0]['pessoa']['contato']['telefone'][1][
+                                                'operadora']) + '</code>\n' +
+                                       '<b>TIPO TELEFONE: </b><code>' + str(
+                                            resp['result'][0]['pessoa']['contato']['telefone'][1][
+                                                'tipoTelefone']) + '</code>\n\n')
+                            except:
+                                try:
+                                    tel = ('<b>DDD: </b><code>' + str(
+                                        resp['result'][0]['pessoa']['contato']['telefone'][0]['ddd']) + '</code>\n' +
+                                           '<b>NUMERO: </b><code>' + str(
+                                                resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                                    'numero']) + '</code>\n' +
+                                           '<b>OPERADORA: </b><code>' + str(
+                                                resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                                    'operadora']) + '</code>\n' +
+                                           '<b>TIPO TELEFONE: </b><code>' + str(
+                                                resp['result'][0]['pessoa']['contato']['telefone'][0][
+                                                    'tipoTelefone']) + '</code>\n\n')
+                                except:
+                                    tel = 'TELEFONE NÃO ENCONTRADO'
+                        ###################################
+                        try:
+                            psocietaria = ('<b>CNPJ: </b>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0]['nr_cnpj']) + '\n'
+                                                                                                                  '<b>RAZÃO SOCIAL: </b>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                    'razaoSocial']) + '\n'
+                                                      '<b>PARTICIPAÇÃO: </b>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                    'participacao']) + '\n'
+                                                       '<b>QUALIFICAÇÃO: </b>' + str(
+                                resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                    'qualificacao']) + '\n\n' +
+                                           '<b>CNPJ: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                            'nr_cnpj']) + '\n'
+                                                          '<b>RAZÃO SOCIAL: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                            'razaoSocial']) + '\n'
+                                                              '<b>PARTICIPAÇÃO: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                            'participacao']) + '\n'
+                                                               '<b>QUALIFICAÇÃO: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                            'qualificacao']) + '\n\n' +
+                                           '<b>CNPJ: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][2][
+                                            'nr_cnpj']) + '\n'
+                                                          '<b>RAZÃO SOCIAL: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][2][
+                                            'razaoSocial']) + '\n'
+                                                              '<b>PARTICIPAÇÃO: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][2][
+                                            'participacao']) + '\n'
+                                                               '<b>QUALIFICAÇÃO: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][2][
+                                            'qualificacao']) + '\n\n')
+                            # TRATAMENTO PARTICIPAÇÕES SOCIETARIAS
+                        except:
+                            try:
+                                psocietaria = ('<b>CNPJ: </b>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                        'nr_cnpj']) + '\n'
+                                                      '<b>RAZÃO SOCIAL: </b>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                        'razaoSocial']) + '\n'
+                                                          '<b>PARTICIPAÇÃO: </b>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                        'participacao']) + '\n'
+                                                           '<b>QUALIFICAÇÃO: </b>' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                        'qualificacao']) + '\n\n' +
+                                               '<b>CNPJ: </b>' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                                'nr_cnpj']) + '\n'
+                                                              '<b>RAZÃO SOCIAL: </b>' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                                'razaoSocial']) + '\n'
+                                                                  '<b>PARTICIPAÇÃO: </b>' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                                'participacao']) + '\n'
+                                                                   '<b>QUALIFICAÇÃO: </b>' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][1][
+                                                'qualificacao']) + '\n\n')
+                            except:
+                                try:
+                                    psocietaria = ('<b>CNPJ: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                            'nr_cnpj']) + '\n'
+                                                          '<b>RAZÃO SOCIAL: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                            'razaoSocial']) + '\n'
+                                                              '<b>PARTICIPAÇÃO: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                            'participacao']) + '\n'
+                                                               '<b>QUALIFICAÇÃO: </b>' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['participacaoSocietaria'][0][
+                                            'qualificacao']) + '\n\n')
+                                except:
+                                    psocietaria = 'SEM PARTICIPAÇÕES SOCIETARIAS'
+                        ####################################
+                        try:
+                            empregador = ('CNPJ: ' + str(
+                                resp['result'][0]['pessoa']['vinculo']['empregador'][0]['cnpj']) + '\n'
+                                                                                                   'RAZAO SOCIAL: ' + str(
+                                resp['result'][0]['pessoa']['vinculo']['empregador'][0]['razaoSocial']) + '\n'
+                                                                                                          'ADMISSÃO: ' + str(
+                                resp['result'][0]['pessoa']['vinculo']['empregador'][0]['dataAdmissao']) + '\n\n' +
+                                          'CNPJ: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][1]['cnpj']) + '\n'
+                                                                                                           'RAZAO SOCIAL: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][1]['razaoSocial']) + '\n'
+                                                                                                                  'ADMISSÃO: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][1][
+                                            'dataAdmissao']) + '\n\n' +
+                                          'CNPJ: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][2]['cnpj']) + '\n'
+                                                                                                           'RAZAO SOCIAL: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][2]['razaoSocial']) + '\n'
+                                                                                                                  'ADMISSÃO: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][2]['dataAdmissao']) + '\n')
+                            # TRATAMENTO EMPREGADOR
+                        except:
+                            try:
+                                empregador = ('CNPJ: ' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['empregador'][0]['cnpj']) + '\n'
+                                                                                                       'RAZAO SOCIAL: ' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['empregador'][0]['razaoSocial']) + '\n'
+                                                                                                              'ADMISSÃO: ' + str(
+                                    resp['result'][0]['pessoa']['vinculo']['empregador'][0]['dataAdmissao']) + '\n\n' +
+                                              'CNPJ: ' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['empregador'][1]['cnpj']) + '\n'
+                                                                                                               'RAZAO SOCIAL: ' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['empregador'][1][
+                                                'razaoSocial']) + '\n'
+                                                                  'ADMISSÃO: ' + str(
+                                            resp['result'][0]['pessoa']['vinculo']['empregador'][1][
+                                                'dataAdmissao']) + '\n')
+                            except:
+                                try:
+                                    empregador = ('CNPJ: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][0]['cnpj']) + '\n'
+                                                                                                           'RAZAO SOCIAL: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][0]['razaoSocial']) + '\n'
+                                                                                                                  'ADMISSÃO: ' + str(
+                                        resp['result'][0]['pessoa']['vinculo']['empregador'][0]['dataAdmissao']) + '\n')
+                                except:
+                                    empregador = 'NULL'
+                        #####################################
+                        try:
+                            veiculo = ('MARCA: ' + str(
+                                resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['marca']) + '\n'
+                                                                                                    'MODELO: ' + str(
+                                resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['modelo']) + '\n'
+                                                                                                     'ANO: ' + str(
+                                resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['ano']) + '\n'
+                                                                                                  'CATEGORIA: ' + str(
+                                resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['marca']) + '\n'
+                                                                                                    'CLASSIFICAÇÃO: ' + str(
+                                resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['classificacao']) + '\n\n' +
+                                       'MARCA: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['marca']) + '\n'
+                                                                                                            'MODELO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['modelo']) + '\n'
+                                                                                                             'ANO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['ano']) + '\n'
+                                                                                                          'CATEGORIA: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['marca']) + '\n'
+                                                                                                            'CLASSIFICAÇÃO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][1][
+                                            'classificacao']) + '\n\n' +
+                                       'MARCA: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][2]['marca']) + '\n'
+                                                                                                            'MODELO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][2]['modelo']) + '\n'
+                                                                                                             'ANO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][2]['ano']) + '\n'
+                                                                                                          'CATEGORIA: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][2]['marca']) + '\n'
+                                                                                                            'CLASSIFICAÇÃO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][2][
+                                            'classificacao']) + '\n\n')
+                            # TRATAMENTO VEICULO
+                        except:
+                            try:
+                                veiculo = ('MARCA: ' + str(
+                                    resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['marca']) + '\n'
+                                                                                                        'MODELO: ' + str(
+                                    resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['modelo']) + '\n'
+                                                                                                         'ANO: ' + str(
+                                    resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['ano']) + '\n'
+                                                                                                      'CATEGORIA: ' + str(
+                                    resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['marca']) + '\n'
+                                                                                                        'CLASSIFICAÇÃO: ' + str(
+                                    resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['classificacao']) + '\n\n' +
+                                           'MARCA: ' + str(
+                                            resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['marca']) + '\n'
+                                                                                                                'MODELO: ' + str(
+                                            resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['modelo']) + '\n'
+                                                                                                                 'ANO: ' + str(
+                                            resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['ano']) + '\n'
+                                                                                                              'CATEGORIA: ' + str(
+                                            resp['result'][0]['pessoa']['patrimonio']['veiculo'][1]['marca']) + '\n'
+                                                                                                                'CLASSIFICAÇÃO: ' + str(
+                                            resp['result'][0]['pessoa']['patrimonio']['veiculo'][1][
+                                                'classificacao']) + '\n\n')
+                            except:
+                                try:
+                                    veiculo = ('MARCA: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['marca']) + '\n'
+                                                                                                            'MODELO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['modelo']) + '\n'
+                                                                                                             'ANO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['ano']) + '\n'
+                                                                                                          'CATEGORIA: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][0]['marca']) + '\n'
+                                                                                                            'CLASSIFICAÇÃO: ' + str(
+                                        resp['result'][0]['pessoa']['patrimonio']['veiculo'][0][
+                                            'classificacao']) + '\n\n')
+                                except:
+                                    veiculo = 'NULL'
+                        ################################
+                        bot.reply_to(message1,
+                                     '<b>CPF: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['CPF']) + '</code>\n' +
+
+                                     '<b>NOME: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['nomePrimeiro']) + ' ' +
+                                     str(resp['result'][0]['pessoa']['cadastral']['nomeMeio']) + ' ' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['nomeUltimo']) + '</code>\n' +
+
+                                     '<b>SEXO: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['sexo']) + '</code>\n' +
+                                     '<b>DATA NASC: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['dataNascimento']) + '</code>\n' +
+                                     '<b>STATUS RECEITA FEDERAL: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral'][
+                                             'statusReceitaFederal']) + '</code>\n\n' +
+                                     '<b>RG: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['rgNumero']) + '</code>\n' +
+                                     '<b>ORGÃO EMISSOR: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['rgOrgaoEmissor']) + '</code>\n' +
+                                     '<b>UF RG: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['rgUf']) + '</code>\n\n' +
+                                     '<b>TITULO ELEITORAL: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['tituloEleitoral']) + '</code>\n' +
+                                     '<b>NACIONALIDADE: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['nacionalidade']) + '</code>\n' +
+                                     '<b>ESTADO CIVIL: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['estadoCivil']) + '</code>\n\n' +
+
+                                     '<b>NOME MÃE: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral'][
+                                             'maeNomePrimeiro']) + ' </code><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral'][
+                                             'maeNomeMeio']) + ' </code><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['maeNomeUltimo']) + '</code>\n' +
+                                     '<b>CPF MÃE: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['maeCPF']) + '</code>\n' +
+                                     '<b>ESCOLARIDADE: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['escolaridade']) + '</code>\n' +
+                                     '<b>CNS: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['cadastral']['cns']) + '</code>\n\n' +
+                                     '<b>BOLSA FAMILIA: </b><code>' + str(
+                                         resp['result'][0]['pessoa']['beneficiarioProgramaSocial'][
+                                             'bolsaFamilia']) + '</code>\n\n' +
+                                     '<b>ENDEREÇO: </b>\n' + ende +
+                                     '\n\n<b>PARENTESCO: </b>\n\n' + parent +
+                                     '\n\n<b>VIZINHOS: </b>\n\n' + viz + '<b>' + '\n\nEMAIL:\n' + '</b>' + str(emai) +
+                                     '<b>' + '\nTELEFONES:\n\n' + '</b>' + str(tel) + '<b>' +
+                                     'CONJUGE:\n'
+                                     'NOME: ' + '</b>' + str(
+                                         resp['result'][0]['pessoa']['vinculo']['conjuge']['nomePrimeiro']) + ' ' + str(
+                                         resp['result'][0]['pessoa']['vinculo']['conjuge']['nomeMeio']) + str(
+                                         resp['result'][0]['pessoa']['vinculo']['conjuge']['nomeUltimo']) + '\n' + '<b>' +
+                                                                                                            'PARENTESCO: ' + '</b>' + str(
+                                         resp['result'][0]['pessoa']['vinculo']['conjuge']['parentesco']) + '\n\n'
+                                                                                                            '𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝘼𝘾̧𝘼̃𝙊 𝙎𝙊𝘾𝙄𝙀𝙏𝘼𝙍𝙄𝘼:\n\n' + psocietaria +
+                                     '\n\n𝙀𝙈𝙋𝙍𝙀𝙂𝘼𝘿𝙊𝙍:\n' + empregador +
+                                     '\n\n𝙑𝙀𝙄𝘾𝙐𝙇𝙊𝙎: \n' + veiculo +
+                                     '\n\n𝙋𝙍𝙊𝙁𝙄𝙎𝙎𝘼̃𝙊: ' + str(
+                                         resp['result'][0]['pessoa']['socioDemografico']['profissao']) +
+                                     '\n𝙍𝙀𝙉𝘿𝘼 𝙋𝙍𝙀𝙎𝙐𝙈𝙄𝘿𝘼:: ' + str(
+                                         resp['result'][0]['pessoa']['socioDemografico'][
+                                             'rendaPresumida']) + '<b>' + '\n\nGRUPO: @StarkConsultas\nGRUPO²: @StarkConsultas\nGRUPO³: @StarkRefs' + '</b>',
+                                     parse_mode='HTML')
+                    except:
+                        bot.reply_to(message1, '<b>' + 'ERRO, VERIFIQUE O CPF' + '</b>', parse_mode='HTML')
+
+            else:
+                bot.reply_to(message1,
+                             '<b>' + '✅ COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC✅' + '</b>',
+                             parse_mode='HTML')
+
+##
+
+@bot.message_handler(commands=['cepe'] + ['CEPE'])
+def jhgfuhn(nome):
+            id1 = nome.chat.id
+            men = nome.text
+            ltnome = PRIVADO + EXCEPT + GRUPO
+            if id1 in ltnome:
+
+                session = requests_html.HTMLSession()
+                if men == '/cepe':
+                    bot.reply_to(nome, '<b>DIGITE UM CEP"</b>', parse_mode='HTML')
+                elif men == '/CEPE':
+                    bot.reply_to(nome, '<b>DIGITE UM CEP"</b>', parse_mode='HTML')
+                else:
+                    try:
+                        bn = re.sub('[^0-9]', '', men)
+                        bot.reply_to(nome, '<code>AGUARDE UM MOMENTO...</code>', parse_mode='HTML')
+
+                        r = session.get(
+                            'http://191.252.157.10/MasterTarget/teste.php?token=Pg6ZKyXcrYfzSG2TKqc1&cep={}'.format(bn))
+                        ar = r.html.find("td")
+                        ar1 = r.html.find('tr')
+                        try:
+
+                            cepe = (
+                                        '<b>[FORMATO DA CONSULTA ]\n\nNOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                    ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[0].html) + '\n\n' +
+                                        str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[5].html) + '\n\n' +
+                                        str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[10].html) + '\n\n' +
+                                        str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[15].html) + '\n\n' +
+                                        str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[20].html) + '\n\n' +
+                                        str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[25].html) + '\n\n' +
+                                        str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[30].html) + '\n\n' +
+                                        str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[35].html) + '\n\n' +
+                                        str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                   ar[40].html) + '\n\n' +
+                                        str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[45].html) + '\n\n' +
+                                        str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[50].html) + '\n\n' +
+                                        str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[55].html) + '\n\n' +
+                                        str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[60].html) + '\n\n' +
+                                        str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[65].html) + '\n\n' +
+                                        str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[70].html) + '\n\n' +
+                                        str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[75].html) + '\n\n' +
+                                        str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[80].html) + '\n\n' +
+                                        str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[85].html) + '\n\n' +
+                                        str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[90].html) + '\n\n' +
+                                        str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[95].html) + '\n\n' +
+                                        str(ar1[21].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[100].html) + '\n\n' +
+                                        str(ar1[22].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[105].html) + '\n\n' +
+                                        str(ar1[23].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[110].html) + '\n\n' +
+                                        str(ar1[24].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[115].html) + '\n\n' +
+                                        str(ar1[25].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[120].html) + '\n\n' +
+                                        str(ar1[26].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[125].html) + '\n\n' +
+                                        str(ar1[27].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[130].html) + '\n\n' +
+                                        str(ar1[28].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[135].html) + '\n\n' +
+                                        str(ar1[29].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[140].html) + '\n\n' +
+                                        str(ar1[30].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[145].html) + '\n\n' +
+                                        str(ar1[31].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[150].html) + '\n\n' +
+                                        str(ar1[32].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[155].html) + '\n\n' +
+                                        str(ar1[33].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[160].html) + '\n\n' +
+                                        str(ar1[34].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[165].html) + '\n\n' +
+                                        str(ar1[35].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[170].html) + '\n\n' +
+                                        str(ar1[36].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[175].html) + '\n\n' +
+                                        str(ar1[37].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[180].html) + '\n\n' +
+                                        str(ar1[38].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[185].html) + '\n\n' +
+                                        str(ar1[39].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[190].html) + '\n\n' +
+                                        str(ar1[40].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[195].html) + '\n\n' +
+                                        str(ar1[41].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[200].html) + '\n\n' +
+                                        str(ar1[42].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[205].html) + '\n\n' +
+                                        str(ar1[43].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[210].html) + '\n\n' +
+                                        str(ar1[44].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[215].html) + '\n\n' +
+                                        str(ar1[45].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[220].html) + '\n\n' +
+                                        str(ar1[46].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[225].html) + '\n\n' +
+                                        str(ar1[47].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[230].html) + '\n\n' +
+                                        str(ar1[48].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[235].html) + '\n\n' +
+                                        str(ar1[49].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[240].html) + '\n\n' +
+                                        str(ar1[50].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[245].html) + '\n\n' +
+
+                                        str(
+                                            ar1[51].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[245].html) + '\n\n' +
+                                        str(ar1[52].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[250].html) + '\n\n' +
+                                        str(ar1[53].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[255].html) + '\n\n' +
+                                        str(ar1[54].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[260].html) + '\n\n' +
+                                        str(ar1[55].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[265].html) + '\n\n' +
+                                        str(ar1[56].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[270].html) + '\n\n' +
+                                        str(ar1[57].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[275].html) + '\n\n' +
+                                        str(ar1[58].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[280].html) + '\n\n' +
+                                        str(ar1[59].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[285].html) + '\n\n' +
+                                        str(ar1[60].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[290].html) + '\n\n' +
+                                        str(ar1[61].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[295].html) + '\n\n' +
+                                        str(ar1[62].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[300].html) + '\n\n' +
+                                        str(ar1[63].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[305].html) + '\n\n' +
+                                        str(ar1[64].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[310].html) + '\n\n' +
+                                        str(ar1[65].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[315].html) + '\n\n' +
+                                        str(ar1[66].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[320].html) + '\n\n' +
+                                        str(ar1[67].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[325].html) + '\n\n' +
+                                        str(ar1[68].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[330].html) + '\n\n' +
+                                        str(ar1[69].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[335].html) + '\n\n' +
+                                        str(ar1[70].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[340].html) + '\n\n' +
+                                        str(ar1[71].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[345].html) + '\n\n' +
+                                        str(ar1[72].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[350].html) + '\n\n' +
+                                        str(ar1[73].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[355].html) + '\n\n' +
+                                        str(ar1[74].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[360].html) + '\n\n' +
+                                        str(ar1[75].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[365].html) + '\n\n' +
+                                        str(ar1[76].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[370].html) + '\n\n' +
+                                        str(ar1[77].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[375].html) + '\n\n' +
+                                        str(ar1[78].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[380].html) + '\n\n' +
+                                        str(ar1[79].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[385].html) + '\n\n' +
+                                        str(ar1[80].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[390].html) + '\n\n' +
+                                        str(ar1[81].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[395].html) + '\n\n' +
+                                        str(ar1[82].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[400].html) + '\n\n' +
+                                        str(ar1[83].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[405].html) + '\n\n' +
+                                        str(ar1[84].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[410].html) + '\n\n' +
+                                        str(ar1[85].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[415].html) + '\n\n' +
+                                        str(ar1[86].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[420].html) + '\n\n' +
+                                        str(ar1[87].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[425].html) + '\n\n' +
+                                        str(ar1[88].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[430].html) + '\n\n' +
+                                        str(ar1[89].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[435].html) + '\n\n' +
+                                        str(ar1[90].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[440].html) + '\n\n' +
+                                        str(ar1[91].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[445].html) + '\n\n' +
+                                        str(ar1[92].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[450].html) + '\n\n' +
+                                        str(ar1[93].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[455].html) + '\n\n' +
+                                        str(ar1[94].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[460].html) + '\n\n' +
+                                        str(ar1[95].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[465].html) + '\n\n' +
+                                        str(ar1[96].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[470].html) + '\n\n' +
+                                        str(ar1[97].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[475].html) + '\n\n' +
+                                        str(ar1[98].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[480].html) + '\n\n' +
+                                        str(ar1[99].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                    ar[485].html) + '\n\n' +
+                                        str(ar1[100].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                    490].html) + '\n\n<b>GRUPO: @StarkConsultas</b>')
+
+                            for x in range(0, len(cepe), 4096):
+                                bot.reply_to(nome, cepe[x:x + 4096], parse_mode='HTML')
+
+
+                        except:
+                            try:
+
+                                cepe = (
+                                            '<b>[FORMATO DA CONSULTA ]\n\nNOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                        ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                               ar[0].html) + '\n\n' +
+                                            str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[5].html) + '\n\n' +
+                                            str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[10].html) + '\n\n' +
+                                            str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[15].html) + '\n\n' +
+                                            str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[20].html) + '\n\n' +
+                                            str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[25].html) + '\n\n' +
+                                            str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[30].html) + '\n\n' +
+                                            str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[35].html) + '\n\n' +
+                                            str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                       ar[40].html) + '\n\n' +
+                                            str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[45].html) + '\n\n' +
+                                            str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[50].html) + '\n\n' +
+                                            str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[55].html) + '\n\n' +
+                                            str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[60].html) + '\n\n' +
+                                            str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[65].html) + '\n\n' +
+                                            str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[70].html) + '\n\n' +
+                                            str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[75].html) + '\n\n' +
+                                            str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[80].html) + '\n\n' +
+                                            str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[85].html) + '\n\n' +
+                                            str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[90].html) + '\n\n' +
+                                            str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[95].html) + '\n\n' +
+                                            str(ar1[21].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[100].html) + '\n\n' +
+                                            str(ar1[22].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[105].html) + '\n\n' +
+                                            str(ar1[23].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[110].html) + '\n\n' +
+                                            str(ar1[24].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[115].html) + '\n\n' +
+                                            str(ar1[25].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[120].html) + '\n\n' +
+                                            str(ar1[26].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[125].html) + '\n\n' +
+                                            str(ar1[27].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[130].html) + '\n\n' +
+                                            str(ar1[28].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[135].html) + '\n\n' +
+                                            str(ar1[29].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[140].html) + '\n\n' +
+                                            str(ar1[30].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[145].html) + '\n\n' +
+                                            str(ar1[31].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[150].html) + '\n\n' +
+                                            str(ar1[32].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[155].html) + '\n\n' +
+                                            str(ar1[33].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[160].html) + '\n\n' +
+                                            str(ar1[34].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[165].html) + '\n\n' +
+                                            str(ar1[35].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[170].html) + '\n\n' +
+                                            str(ar1[36].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[175].html) + '\n\n' +
+                                            str(ar1[37].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[180].html) + '\n\n' +
+                                            str(ar1[38].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[185].html) + '\n\n' +
+                                            str(ar1[39].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                        ar[190].html) + '\n\n' +
+                                            str(ar1[40].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                        195].html) + '\n\n<b>GRUPO: @StarkConsultas</b>')
+                                le = len(cepe)
+                                for x in range(0, len(cepe), 4096):
+                                    bot.reply_to(nome, le + '\n\n' + cepe[x:x + 4096], parse_mode='HTML')
+                            except:
+                                try:
+                                    bot.reply_to(nome,
+                                                 '<b>[FORMATO DA CONSULTA ]\n\nNOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                     ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[0].html) + '\n\n' +
+                                                 str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[5].html) + '\n\n' +
+                                                 str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[10].html) + '\n\n' +
+                                                 str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[15].html) + '\n\n' +
+                                                 str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[20].html) + '\n\n' +
+                                                 str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[25].html) + '\n\n' +
+                                                 str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[30].html) + '\n\n' +
+                                                 str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[35].html) + '\n\n' +
+                                                 str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                            ar[40].html) + '\n\n' +
+                                                 str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[45].html) + '\n\n' +
+                                                 str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[50].html) + '\n\n' +
+                                                 str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[55].html) + '\n\n' +
+                                                 str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[60].html) + '\n\n' +
+                                                 str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[65].html) + '\n\n' +
+                                                 str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[70].html) + '\n\n' +
+                                                 str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[75].html) + '\n\n' +
+                                                 str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[80].html) + '\n\n' +
+                                                 str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[85].html) + '\n\n' +
+                                                 str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[90].html) + '\n\n' +
+                                                 str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[95].html) + '\n\n' +
+                                                 str(ar1[21].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[100].html) + '\n\n' +
+                                                 str(ar1[22].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[105].html) + '\n\n' +
+                                                 str(ar1[23].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[110].html) + '\n\n' +
+                                                 str(ar1[24].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[115].html) + '\n\n' +
+                                                 str(ar1[25].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[120].html) + '\n\n' +
+                                                 str(ar1[26].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[125].html) + '\n\n' +
+                                                 str(ar1[27].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[130].html) + '\n\n' +
+                                                 str(ar1[28].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[135].html) + '\n\n' +
+                                                 str(ar1[29].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[140].html) + '\n\n' +
+                                                 str(ar1[30].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                             ar[145].html) + '\n\n',
+                                                 parse_mode='HTML')
+                                except:
+                                    try:
+                                        bot.reply_to(nome,
+                                                     '<b>[FORMATO DA CONSULTA ]\n\nNOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                         ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[0].html) + '\n\n' +
+                                                     str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[5].html) + '\n\n' +
+                                                     str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[10].html) + '\n\n' +
+                                                     str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[15].html) + '\n\n' +
+                                                     str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[20].html) + '\n\n' +
+                                                     str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[25].html) + '\n\n' +
+                                                     str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[30].html) + '\n\n' +
+                                                     str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[35].html) + '\n\n' +
+                                                     str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                ar[40].html) + '\n\n' +
+                                                     str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[45].html) + '\n\n' +
+                                                     str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[50].html) + '\n\n' +
+                                                     str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[55].html) + '\n\n' +
+                                                     str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[60].html) + '\n\n' +
+                                                     str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[65].html) + '\n\n' +
+                                                     str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[70].html) + '\n\n' +
+                                                     str(ar1[16].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[75].html) + '\n\n' +
+                                                     str(ar1[17].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[80].html) + '\n\n' +
+                                                     str(ar1[18].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[85].html) + '\n\n' +
+                                                     str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                 ar[90].html) + '\n\n' +
+                                                     str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                         95].html) + '\n\n<b>GRUPO: @StarkConsultas</b>', parse_mode='HTML')
+                                    except:
+                                        try:
+                                            bot.reply_to(nome,
+                                                         '<b>[FORMATO DA CONSULTA ]\n\nNOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                             ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             0].html) + '\n\n' +
+                                                         str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             5].html) + '\n\n' +
+                                                         str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             10].html) + '\n\n' +
+                                                         str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             15].html) + '\n\n' +
+                                                         str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             20].html) + '\n\n' +
+                                                         str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             25].html) + '\n\n' +
+                                                         str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             30].html) + '\n\n' +
+                                                         str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             35].html) + '\n\n' +
+                                                         str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             40].html) + '\n\n' +
+                                                         str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             45].html) + '\n\n' +
+                                                         str(ar1[11].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             50].html) + '\n\n' +
+                                                         str(ar1[12].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             55].html) + '\n\n' +
+                                                         str(ar1[13].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             60].html) + '\n\n' +
+                                                         str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             65].html) + '\n\n' +
+                                                         str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
+                                                             70].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                         parse_mode='HTML')
+                                        except:
+                                            try:
+                                                bot.reply_to(nome,
+                                                             '<b>[FORMATO DA CONSULTA ]\n\nNOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                                 ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            0].html) + '\n\n' +
+                                                             str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            5].html) + '\n\n' +
+                                                             str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            10].html) + '\n\n' +
+                                                             str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            15].html) + '\n\n' +
+                                                             str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            20].html) + '\n\n' +
+                                                             str(ar1[6].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            25].html) + '\n\n' +
+                                                             str(ar1[7].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            30].html) + '\n\n' +
+                                                             str(ar1[8].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            35].html) + '\n\n' +
+                                                             str(ar1[9].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                        ar[
+                                                                                                            40].html) + '\n\n' +
+                                                             str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
+                                                                                                         ar[
+                                                                                                             45].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                             parse_mode='HTML')
+                                            except:
+                                                try:
+                                                    bot.reply_to(nome,
+                                                                 '<b>[FORMATO DA CONSULTA ]\n\n NOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                                     ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                0].html) + '\n\n' +
+                                                                 str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                5].html) + '\n\n' +
+                                                                 str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                10].html) + '\n\n' +
+                                                                 str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                15].html) + '\n\n' +
+                                                                 str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
+                                                                                                            '', ar[
+                                                                                                                20].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                                 parse_mode='HTML')
+                                                except:
+                                                    try:
+                                                        bot.reply_to(nome,
+                                                                     '<b>[FORMATO DA CONSULTA ]\n\n NOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                                         ar1[1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                         '[^0-9]', '', ar[0].html) + '\n\n' +
+                                                                     str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                         '[^0-9]', '', ar[5].html) + '\n\n' +
+                                                                     str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                         '[^0-9]', '', ar[10].html) + '\n\n' +
+                                                                     str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                         '[^0-9]', '',
+                                                                         ar[15].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                                     parse_mode='HTML')
+                                                    except:
+                                                        try:
+                                                            bot.reply_to(nome,
+                                                                         '<b>[FORMATO DA CONSULTA ]\n\n NOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' +
+                                                                         str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                             '[^0-9]', '', ar[0].html) + '\n\n' +
+                                                                         str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                             '[^0-9]', '', ar[5].html) + '\n\n' +
+                                                                         str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                             '[^0-9]', '', ar[
+                                                                                 10].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                                         parse_mode='HTML')
+                                                        except:
+                                                            try:
+                                                                bot.reply_to(nome,
+                                                                             '<b>[FORMATO DA CONSULTA ]\n\n NOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                                                 ar1[1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                                 '[^0-9]', '',
+                                                                                 ar[0].html) + '\n\n' +
+                                                                             str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                                 '[^0-9]', '',
+                                                                                 ar[
+                                                                                     5].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                                             parse_mode='HTML')
+                                                            except:
+                                                                try:
+                                                                    bot.reply_to(nome,
+                                                                                 '<b>[FORMATO DA CONSULTA ]\n\n NOME:\nDATA DE NACIMENTO:\nNOME MAE:\nESTADO:\nCPF:\n\n</b>' + str(
+                                                                                     ar1[
+                                                                                         1].text) + '\nCPF/CNPJ: ' + re.sub(
+                                                                                     '[^0-9]', '',
+                                                                                     ar[
+                                                                                         0].html) + '\n\n<b>GRUPO: @StarkConsultas</b>',
+                                                                                 parse_mode='HTML')
+                                                                except:
+                                                                    bot.reply_to(nome, '<b>SEM RESULTADOS</b>',
+                                                                                 parse_mode='HTML')
+                    except:
+                        bot.reply_to(nome, '<b>ALGO DEU ERRADO</b>', parse_mode='HTML')
+            else:
+                bot.reply_to(nome, '<b>COMPRE ACESSO VIP COM MEU DONO @StarkVendasOFC</b>',
+                             parse_mode='HTML')
+
+bot.polling()
