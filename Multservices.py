@@ -27,11 +27,11 @@ def boavinda(message1):
     if ide in liste:
 
         bot.	reply_to(message1, '<b>' '👑 VOCÊ TEM ACESSO VIP 👑' '</b>', parse_mode='HTML')
-        bot.send_message(ide, '✅ ' '<b>' '' '</b>''<code>' '' '</code>''<b>' '' '</b>' ' ✅', parse_mode='HTML')
+        bot.send_message(ide, ' ' '<b>' '' '</b>''<code>' '' '</code>''<b>' '' '</b>' ' ', parse_mode='HTML')
     
     else:
         bot.reply_to(message1, '<b>' + '🚫 ' + '@'+message1.chat.username + ' ❌ VOCÊ NÃO TEM ACESSO VIP ❌' '</b>', parse_mode='HTML')
-        bot.send_message(ide, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+        bot.send_message(ide, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>', parse_mode='HTML')
         
 @bot.message_handler(commands=['cpf'])
 def zn(nome):
@@ -57,7 +57,7 @@ def zn(nome):
                 except:
                 	bot.reply_to(nome, '<b>' 'TÁ ERRADO' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>', parse_mode='HTML')
                 		
 ##
 
@@ -91,7 +91,7 @@ def lbz(men):
                                      '<b>• PAÍS</b>: ' + '<code>' + str(r['country']['name']) + '</code>' + '\n' +
                                      '<b>• ID</b>: ' + '<code>' + str(r['country']['alpha3']) + '</code>' + '\n' +
                                      '<b>• SIGLA</b>: ' + '<code>' + str(r['country'][
-                                                               'alpha2']) + '</code>' + '\n' +  '\n\n<b>By • @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
+                                                               'alpha2']) + '</code>' + '\n' +  '\n\n<b>By × @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
                     else:
                         bot.reply_to(men, '<b>VEJA O EXEMPLO</b>: "' + '<code>' + '/bin 651652' + '</code>' + '"', parse_mode='HTML')
                 except:
@@ -113,7 +113,7 @@ def bno(men):
         	ipp = re.sub('[^0-9]', '', mensagem)
         	url = requests.get('http://geradorapp.com/api/v1/cep/search/' + ipp + '?token=63ba0d201147617b1e3c050623f36841')
         	reqi = url.json
-        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA VIP 🔎' '</b>' + '\n\n\n' + '<b>' '• CEP: ' '</b>' '<code>' + ipp + '</code>' '\n' + '<b>' '• UF: ' '</b>' '<code>' + reqi()['data']['state'] + '</code>' '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + reqi()['data']['state_name'] + '</code>' '\n' + '<b>' '• CIDADE: ' '</b>' '<code>' + reqi()['data']['city'] + '</code>' '\n\n' + '<b>' '• LOGRADOURO: ' '</b>' '<code>' + reqi()['data']['address'] + '</code>' '\n' + '<b>' '• BAIRRO: ' '</b>' '<code>' + reqi()['data']['district'] + '</code>' '\n' + '<b>' '• NAME: ' '</b>' '<code>' + reqi()['data']['address_name'] + '</code>' '\n' + '<b>' '• IBGE: ' '</b>' '<code>' + reqi()['data']['city_code'] + '</code>' '\n' + '<b>' '• STATUS: ' '</b>' '<code>' + reqi()['data']['status'] + '</code>' '\n' + '<b>' '• MENSAGEM: ' '</b>' '<code>' + reqi()['data']['message'] + '</code>' '\n\n\n' + '<b>' 'By • @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA VIP 🔎' '</b>' + '\n\n\n' + '<b>' '• CEP: ' '</b>' '<code>' + ipp + '</code>' '\n' + '<b>' '• UF: ' '</b>' '<code>' + reqi()['data']['state'] + '</code>' '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + reqi()['data']['state_name'] + '</code>' '\n' + '<b>' '• CIDADE: ' '</b>' '<code>' + reqi()['data']['city'] + '</code>' '\n\n' + '<b>' '• LOGRADOURO: ' '</b>' '<code>' + reqi()['data']['address'] + '</code>' '\n' + '<b>' '• BAIRRO: ' '</b>' '<code>' + reqi()['data']['district'] + '</code>' '\n' + '<b>' '• NAME: ' '</b>' '<code>' + reqi()['data']['address_name'] + '</code>' '\n' + '<b>' '• IBGE: ' '</b>' '<code>' + reqi()['data']['city_code'] + '</code>' '\n' + '<b>' '• STATUS: ' '</b>' '<code>' + reqi()['data']['status'] + '</code>' '\n' + '<b>' '• MENSAGEM: ' '</b>' '<code>' + reqi()['data']['message'] + '</code>' '\n\n\n' + '<b>' 'By × @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
         except:
                    bot.reply_to(men, '<b>' + 'OPS, TA ERRADO ;(' + '</b>', parse_mode='HTML')
 
@@ -128,7 +128,7 @@ def bniio(men):
         bot.reply_to(men, '<b>' + 'ERRADO' + '</b>', parse_mode='HTML')
     else:
         try:
-        	bot.reply_to(men, '<b>' '' '</b>' + '\n\n' + '<b>' 'CEP 🚨</b><code> /cep  🚨' '</code>' + '\n' + '<b>' 'BIN  🚨</b><code> /bin  🚨' + '</code>' '\n' + '<b>' 'CNPJ  🚨</b><code> /cnpj  🚨' + '</code>' '\n' + '<b>' 'CPF  🚨 ' '</b>''<code>' ' /cpf  🚨' '</code>' + '\n' + '<b>' 'TRABALHOS  🚨 ' '</b>''<code>' ' /trabalhos  🚨' '</code>' + '\n' + '<b>' 'TELEFONE  🚨' '</b>' '<code>' + ' /tel  🚨' + '</code>' + '\n' + '<b>' 'NOME  🚨 ' '</b>' '<code>  🚨' + ' /nome' + '</code>' + '\n' + '<b>' 'VIZINHOS  🚨' '</b>' '<code>' + ' /vizinhos  🚨' + '</code>' + '\n' + '<b>' 'CEP V2  🚨' '</b>' '<code>' + ' /cepe  🚨' + '</code>' + '\n' + '<b>' 'CPF V2  🚨' '</b>' '<code>' + ' /master  🚨' + '</code>' + '\n' + '<b>' 'EMAIL  🚨' '</b>' '<code>' + ' /email  🚨' + '</code>' + '\n' + '<b>' 'PARENTES  🚨' '</b>' '<code>' + ' /parentes  🚨' + '</code>' + '\n' + '<b>' 'IP  🚨' '</b>' '<code>' + ' /ip  🚨' + '</code>' + '\n' + '<b>' 'PLACA  🚨' '</b>' + '<code>' ' /placa  🚨' '</code>' + '\n\n' + '<b>' 'CHK CC  🚨</b><code> /chkcc  🚨' '</code>' '\n\n' + '<b>' 'GERAR CPF  🚨</b><code> /gencpf  🚨' '</code>' + '\n' + '<b>' 'GERAR EMAIL  🚨</b><code> /genemail  🚨' + '</code>' + '\n' + '<b>' 'GERAR CNPJ  🚨</b><code> /gencnpj  🚨' + '</code>' '\n\n' + '<b>' 'VALIDAR CPF  🚨</b><code> /validar  🚨' + '</code>' + '\n\n' + '<b>' 'ID  🚨' '</b>' '<code>' + ' /id  🚨' + '</code>' + '\n\n' + '<b>By • @StarkVendasOFC</b>' , parse_mode='HTML')
+        	bot.reply_to(men, '<b>' '' '</b>' + '\n\n' + '<b>' 'CEP</b><code> /cep' '</code>' + '\n' + '<b>' 'BIN</b><code> /bin' + '</code>' '\n' + '<b>' 'CNPJ</b><code> /cnpj' + '</code>' '\n' + '<b>' 'CPF' '</b>''<code>' ' /cpf' '</code>' + '\n' + '<b>' 'TRABALHOS' '</b>''<code>' ' /trabalhos' '</code>' + '\n' + '<b>' 'TELEFONE' '</b>' '<code>' + ' /tel' + '</code>' + '\n' + '<b>' 'NOME' '</b>' '<code>' + ' /nome' + '</code>' + '\n' + '<b>' 'VIZINHOS' '</b>' '<code>' + ' /vizinhos' + '</code>' + '\n' + '<b>' 'CEP V2' '</b>' '<code>' + ' /cepe' + '</code>' + '\n' + '<b>' 'CPF V2' '</b>' '<code>' + ' /master' + '</code>' + '\n' + '<b>' 'EMAIL' '</b>' '<code>' + ' /email' + '</code>' + '\n' + '<b>' 'PARENTES' '</b>' '<code>' + ' /parentes' + '</code>' + '\n' + '<b>' 'IP' '</b>' '<code>' + ' /ip' + '</code>' + '\n' + '<b>' 'PLACA' '</b>' + '<code>' ' /placa' '</code>' + '\n\n' + '<b>' 'CHK CC</b><code> /chkcc' '</code>' '\n\n' + '<b>' 'GERAR CPF</b><code> /gencpf' '</code>' + '\n' + '<b>' 'GERAR EMAIL</b><code> /genemail' + '</code>' + '\n' + '<b>' 'GERAR CNPJ</b><code> /gencnpj' + '</code>' '\n\n' + '<b>' 'VALIDAR CPF</b><code> /validar' + '</code>' + '\n\n' + '<b>' 'ID' '</b>' '<code>' + ' /id' + '</code>' + '\n\n' + '<b>By × @StarkVendasOFC</b>' , parse_mode='HTML')
         except:
                     bot.reply_to(men, '<b>' + '.' + '</b>', parse_mode='HTML')
 
@@ -147,7 +147,7 @@ def bnio(men):
         	ip = re.sub('[^0-9]', '', mensagem)
         	urrl = requests.get("http://geradorapp.com/api/v1/cpf/validate/" + ip + "?token=63ba0d201147617b1e3c050623f36841")
         	reeq = urrl.json
-        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA VIP 🔎' + '</b>' +'\n\n\n' + '<b>' + '• CPF: ' + '</b>' + '<code>' + reeq()['data']['number_formatted'] + '</code>' + '\n' + '<b>' + '• NOME: ' + '</b>' + '<code>' + 'N/A' + '</code>' + '\n' + '<b>' + '• SITUAÇÃO: ' + '</b>' + '<code>' + reeq()['data']['message'] + '</code>' + '\n\n\n' + '<b>' + 'By • @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' 'ㅤ🔍 CONSULTA VIP 🔎' + '</b>' +'\n\n\n' + '<b>' + '• CPF: ' + '</b>' + '<code>' + reeq()['data']['number_formatted'] + '</code>' + '\n' + '<b>' + '• NOME: ' + '</b>' + '<code>' + 'N/A' + '</code>' + '\n' + '<b>' + '• SITUAÇÃO: ' + '</b>' + '<code>' + reeq()['data']['message'] + '</code>' + '\n\n\n' + '<b>' + 'By × @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
         except:
                     bot.reply_to(men, '<b>' + 'OPS, CPF INVÁLIDO OU NÃO ENCONTRADO! :(' + '</b>', parse_mode='HTML')
 
@@ -190,7 +190,7 @@ def bnioo(men):
                      '𝘾𝘼𝙋𝙄𝙏𝘼𝙇: ' '<code>' + str(req['result']['capitalSocial']) + '</code>' '\n\n'
                      '𝘼𝙏𝙄𝙑𝙄𝘿𝘼𝘿𝙀 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇: ' '<code>' + str(req['result']['atividadePrimaria']) + '</code>' '\n\n' +
                      '𝘼𝙏𝙄𝙑𝙄𝘿𝘼𝘿𝙀 𝙎𝙀𝘾𝙐𝙉𝘿𝘼́𝙍𝙄𝘼: ' '<code>' + str(req['result']['atividadeSecundaria']) + '</code>' '\n\n' +
-                     '𝘿𝘼𝙏𝘼 𝙎𝙄𝙏𝙐𝘼𝘾̧𝘼̃𝙊: ' '<code>' + str(req['result']['dataSituacao']) + '</code>' '\n\n' + '𝙐𝙁: ' '<code>' + str(req['result']['estado']) + '</code>' '\n\n' + '𝘿𝙊𝙉𝙊𝙎: ' '<code>' + str(req['result']['qsa']) + '</code>'  '\n\nBy • @StarkVendasOFC\n', parse_mode='HTML')
+                     '𝘿𝘼𝙏𝘼 𝙎𝙄𝙏𝙐𝘼𝘾̧𝘼̃𝙊: ' '<code>' + str(req['result']['dataSituacao']) + '</code>' '\n\n' + '𝙐𝙁: ' '<code>' + str(req['result']['estado']) + '</code>' '\n\n' + '𝘿𝙊𝙉𝙊𝙎: ' '<code>' + str(req['result']['qsa']) + '</code>'  '\n\nBy × @StarkVendasOFC\n', parse_mode='HTML')
         except:
                      	bot.reply_to(men, '𝙊𝙋𝙎, 𝘾𝙉𝙋𝙅 𝙉𝘼̃𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝘿𝙊')
 
@@ -212,7 +212,7 @@ def zion(nome):
                 except:
                 	bot.reply_to(nome, '<b>' '#Reproved ' + ipo + ' ❌' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ COMPRE BOT VIP@StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '💰 COMPRE BOT VIP@StarkVendasOFC 💰' '</b>', parse_mode='HTML')
 
 ##
 
@@ -256,7 +256,7 @@ def lbx(men):
         	url = requests.get('http://geradorapp.com/api/v1/cpf/generate?token=63ba0d201147617b1e3c050623f36841')
         	respostaa = url.json
         	gamer = respostaa()['data']['number_formatted']
-        	bot.reply_to(men, '<b>' 'ㅤ⚙ GERADOR DE CPF ⚙' '</b>' + '\n\n\n' + '<b>' '• CPF: ' '</b>''<code>' + resposta + '</code>' + '\n' + '<b>' '• CPF: ' '</b>' '<code>' + cpff + '</code>' + '\n' + '<b>' + '• CPF: ' + '</b>' '<code>' + dkzinn + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + lbx + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + lb + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + lbzinn + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + dkz + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + andrei + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + pc + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + gamer + '</code>' + '\n\n\n' + '<b>' + 'By • @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' 'ㅤ⚙ GERADOR DE CPF ⚙' '</b>' + '\n\n\n' + '<b>' '• CPF: ' '</b>''<code>' + resposta + '</code>' + '\n' + '<b>' '• CPF: ' '</b>' '<code>' + cpff + '</code>' + '\n' + '<b>' + '• CPF: ' + '</b>' '<code>' + dkzinn + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + lbx + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + lb + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + lbzinn + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + dkz + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + andrei + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + pc + '</code>' + '\n' + '<b>' '• CPF: ' '</b>''<code>' + gamer + '</code>' + '\n\n\n' + '<b>' + 'By × @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
         except:
                     bot.reply_to(men, '.')
 
@@ -302,7 +302,7 @@ def lbxk(men):
         	url = requests.get('http://geradorapp.com/api/v1/cnpj/generate?token=63ba0d201147617b1e3c050623f36841')
         	respostaa = url.json
         	gamerk = respostaa()['data']['number_formatted']
-        	bot.reply_to(men, '<b>' 'ㅤ⚙ GERADOR DE CNPJ ⚙' '</b>' + '\n\n\n' + '<b>' '• CNPJ: ' '</b>''<code>' + respostak + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>' '<code>' + cpffk + '</code>' + '\n' + '<b>' + '• CNPJ: ' + '</b>' '<code>' + nagisa + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + lbxk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + lbk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + lbzinnk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + dkzk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + andreik + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + pck + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + gamerk + '</code>' + '\n\n\n' + '<b>' + 'By • @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' 'ㅤ⚙ GERADOR DE CNPJ ⚙' '</b>' + '\n\n\n' + '<b>' '• CNPJ: ' '</b>''<code>' + respostak + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>' '<code>' + cpffk + '</code>' + '\n' + '<b>' + '• CNPJ: ' + '</b>' '<code>' + nagisa + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + lbxk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + lbk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + lbzinnk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + dkzk + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + andreik + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + pck + '</code>' + '\n' + '<b>' '• CNPJ: ' '</b>''<code>' + gamerk + '</code>' + '\n\n\n' + '<b>' + 'By × @StarkVendasOFC' + '\n' + '' + '\n' + '' + '</b>', parse_mode='HTML')
         except:
                     bot.reply_to(men, '.')
 
@@ -324,7 +324,7 @@ def ipoop(men):
         	req = url.text
         	req2 = url2.text
         	req3 = url3.text
-        	bot.reply_to(men, '<b>' '📧 EMAIL FAKE 📧' '</b>' + '\n\n' + '<code>' + req + '</code>' + '\n' + '<code>' + req2 + '</code>' + '\n' + '<code>' + req3 + '</code>' + '\n\n' + '<b>' 'By • @StarkVendasOFC\n\n' '</b>', parse_mode='HTML')
+        	bot.reply_to(men, '<b>' '📧 EMAIL FAKE 📧' '</b>' + '\n\n' + '<code>' + req + '</code>' + '\n' + '<code>' + req2 + '</code>' + '\n' + '<code>' + req3 + '</code>' + '\n\n' + '<b>' 'By × @StarkVendasOFC\n\n' '</b>', parse_mode='HTML')
         except:
                     bot.reply_to(men, '', parse_mode='HTML')
 
@@ -352,7 +352,7 @@ def zbsn(nome):
                 except:
                 	bot.reply_to(nome, '<b>' 'TÁ ERRADO, IDIOTA!' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>', parse_mode='HTML')
 
 ####
 
@@ -393,14 +393,14 @@ def byti(men):
                                    str(envia.split("<div class='itemMoradores'>")[3].split("<")[0][3:40]) + '\n' + str(envia.split("<div class='itemMoradores'>")[4].split("<")[0][3:40]) +'\n'+ \
                                    str(envia.split("<div class='itemMoradores'>")[5].split("<")[0][3:40])
 
-                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' 'By • @StarkVendasOFC\n\n' '</b>' , parse_mode='HTML')
+                            bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' 'By × @StarkVendasOFC\n\n' '</b>' , parse_mode='HTML')
                         except:
                             try:
                                 viz1 = str(envia.split("<div class='itemMoradores'>")[1].split("<")[0][3:40]) + '\n' + \
                                        str(envia.split("<div class='itemMoradores'>")[2].split("<")[0][3:40])
 
                                 bot.reply_to(men,
-                                             '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' 'By • @StarkVendasOFC\n\n' '</b>',
+                                             '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VIZINHOS: ' '</b>' + '\n\n' + '<code>' + viz1 + '</code>' + '\n\n' + '<b>' 'By × @StarkVendasOFC\n\n' '</b>',
                                              parse_mode='HTML')
                             except:
                                 bot.reply_to(men, '<b>NENHUM VIZINHO ENCONTRADO</b>', parse_mode='HTML')
@@ -411,7 +411,7 @@ def byti(men):
                         bot.reply_to(men, '<b>OPS, NENHUM VIZINHO ENCONTRADO </b>', parse_mode="HTML")
 
             else:
-                bot.reply_to(men, '<b>✅ COMPRE BOT VIP @StarkVendasOFC ✅</b>',
+                bot.reply_to(men, '<b>💰 COMPRE BOT VIP @StarkVendasOFC 💰</b>',
                              parse_mode='HTML')
 
 ##
@@ -447,7 +447,7 @@ def bxniy(men):
                     except:
                         bot.reply_to(men, '<b>IP NÃO ENCONTRADO</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>✅ COMPRE BOT VIP @StarkVendasOFC ✅</b>', parse_mode='HTML')
+                bot.reply_to(men, '<b>💰 COMPRE BOT VIP @StarkVendasOFC 💰</b>', parse_mode='HTML')
 
 ##
 
@@ -467,11 +467,11 @@ def validnum(nome):
                     ip = re.sub('[^0-9+]', '', msg)
                     url = requests.get('http://apilayer.net/api/validate?access_key=5c6f98a2e42e805b281f5b1b53df68df&number=' + ip + '&country_code=&format=1')
                     req = url.json
-                    bot.reply_to(nome, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VÁLIDO: ' '</b>' '<code>' + str(req()['valid']) + '</code>' + '\n' + '<b>' '• NÚMERO: ' '</b>' '<code>' + str(req()['international_format']) + '</code>' + '\n' + '<b>' '• CODE PAÍS: ' '</b>' '<code>' + str(req()['country_prefix']) + '</code>' + '\n' + '<b>' '• SIGLA: ' '</b>' '<code>' + str(req()['country_code']) + '</code>' + '\n' + '<b>' '• PAÍS: ' '</b>' '<code>' + str(req()['country_name']) + '</code>' + '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + str(req()['location']) + '</code>' + '\n' + '<b>' '• OPERADORA: ' '</b>' '<code>' + str(req()['carrier']) + '</code>' + '\n' '<b>' '• TIPO: ' '</b>' '<code>' + str(req()['line_type']) + '</code>' + '\n\n' + '<b>' + 'By • @StarkVendasOFC\n\n' '</b>' , parse_mode='HTML')
+                    bot.reply_to(nome, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<b>' '• VÁLIDO: ' '</b>' '<code>' + str(req()['valid']) + '</code>' + '\n' + '<b>' '• NÚMERO: ' '</b>' '<code>' + str(req()['international_format']) + '</code>' + '\n' + '<b>' '• CODE PAÍS: ' '</b>' '<code>' + str(req()['country_prefix']) + '</code>' + '\n' + '<b>' '• SIGLA: ' '</b>' '<code>' + str(req()['country_code']) + '</code>' + '\n' + '<b>' '• PAÍS: ' '</b>' '<code>' + str(req()['country_name']) + '</code>' + '\n' + '<b>' '• ESTADO: ' '</b>' '<code>' + str(req()['location']) + '</code>' + '\n' + '<b>' '• OPERADORA: ' '</b>' '<code>' + str(req()['carrier']) + '</code>' + '\n' '<b>' '• TIPO: ' '</b>' '<code>' + str(req()['line_type']) + '</code>' + '\n\n' + '<b>' + 'By × @StarkVendasOFC\n\n' '</b>' , parse_mode='HTML')
                 except:
                 	bot.reply_to(nome, '<b>' 'TÁ ERRADO, IDIOTA!' '</b>', parse_mode='HTML')
             else:
-                		bot.reply_to(nome, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                		bot.reply_to(nome, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>', parse_mode='HTML')
 
 ##
 
@@ -510,7 +510,7 @@ def parentes(men):
                         dados3 = str(ar1[3].text)
 
                         bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                      parse_mode='HTML')
                     except:
                         try:
@@ -523,7 +523,7 @@ def parentes(men):
                             dados2 = str(ar1[2].text)
 
                             bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                          parse_mode='HTML')
                         except:
                             try:
@@ -536,7 +536,7 @@ def parentes(men):
                             except:
                                 N = bot.reply_to(men, '<b>OPS, PARENTES NÃO ECONTRADOS!</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>',
+                bot.reply_to(men, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>',
                              parse_mode='HTML')
 
 ##
@@ -694,7 +694,7 @@ def bijgh(men):
                     except:
                         A = bot.reply_to(men, '<b>' 'OPS, NÃO ENCONTRADO!' '</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>',
+                bot.reply_to(men, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>',
                              parse_mode='HTML')
 
 ###########
@@ -733,7 +733,7 @@ def beroi(men):
                         dados3 = str(ar1[3].text)
 
                         bot.reply_to(men,
-                                     dados + '\n<b>CPF: </b>' + cpf + '\n\n' + dados2 + '\n<b>CPF: </b>' + cpf2 + '\n\n' + dados3 + '\n<b>CPF: </b>' + cpf3 + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                     dados + '\n<b>CPF: </b>' + cpf + '\n\n' + dados2 + '\n<b>CPF: </b>' + cpf2 + '\n\n' + dados3 + '\n<b>CPF: </b>' + cpf3 + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                      parse_mode='HTML')
                     except:
                         try:
@@ -746,7 +746,7 @@ def beroi(men):
                             dados2 = str(ar1[2].text)
 
                             bot.reply_to(men,
-                                         dados + '\n<b>CPF: </b>' + cpf + '\n\n' + dados2 + '\n<b>CPF: </b>' + cpf2 + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                         dados + '\n<b>CPF: </b>' + cpf + '\n\n' + dados2 + '\n<b>CPF: </b>' + cpf2 + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                          parse_mode='HTML')
                         except:
                             try:
@@ -754,7 +754,7 @@ def beroi(men):
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
                                 bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' + '<code>' +
-                                             dados + '</code>' + '\n<b>CPF: </b>' '<code>' + cpf + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                             dados + '</code>' + '\n<b>CPF: </b>' '<code>' + cpf + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                              parse_mode='HTML')
                             except:
                                 bot.reply_to(men, '<b>NÃO ENCONTRADO</b>', parse_mode='HTML')
@@ -763,7 +763,7 @@ def beroi(men):
 
 
             else:
-                bot.reply_to(men, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC ✅' '</b>', parse_mode='HTML')
+                bot.reply_to(men, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>', parse_mode='HTML')
 
 ###########
 
@@ -889,7 +889,7 @@ def sjjsn(nome):
                                          str(ar1[49].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
                                                                                      ar[240].html) + '\n\n' +
                                          str(ar1[50].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
-                                             245].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>', parse_mode='HTML')
+                                             245].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>', parse_mode='HTML')
                         except:
                             try:
                                 bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
@@ -971,7 +971,7 @@ def sjjsn(nome):
                                              str(ar1[39].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
                                                                                          ar[190].html) + '\n\n' +
                                              str(ar1[40].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
-                                    195].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>', parse_mode='HTML')
+                                    195].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>', parse_mode='HTML')
                             except:
                                 try:
                                     bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
@@ -1075,7 +1075,7 @@ def sjjsn(nome):
                                                      str(ar1[19].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
                                                                                                  ar[90].html) + '\n\n' +
                                                      str(ar1[20].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
-                                            95].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>', parse_mode='HTML')
+                                            95].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>', parse_mode='HTML')
                                     except:
                                         try:
                                             bot.reply_to(nome, str(ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
@@ -1108,7 +1108,7 @@ def sjjsn(nome):
                                                          str(ar1[14].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
                                                 65].html) + '\n\n' +
                                                          str(ar1[15].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '', ar[
-                                                70].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>', parse_mode='HTML')
+                                                70].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>', parse_mode='HTML')
                                         except:
                                             try:
                                                 bot.reply_to(nome,
@@ -1141,7 +1141,7 @@ def sjjsn(nome):
                                                                                                             40].html) + '\n\n' +
                                                              str(ar1[10].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]', '',
                                                                                                          ar[
-                                                                                                             45].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                                                                                             45].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                                              parse_mode='HTML')
                                             except:
                                                 try:
@@ -1160,7 +1160,7 @@ def sjjsn(nome):
                                                                                                                 15].html) + '\n\n' +
                                                                  str(ar1[5].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
                                                                                                             '', ar[
-                                                                                                                20].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                                                                                                20].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                                                  parse_mode='HTML')
                                                 except:
                                                     try:
@@ -1172,7 +1172,7 @@ def sjjsn(nome):
                                                             '[^0-9]', '', ar[10].html) + '\n\n' +
                                                                      str(ar1[4].text) + '\nCPF/CNPJ: ' + re.sub(
                                                             '[^0-9]', '',
-                                                            ar[15].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                                            ar[15].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                                                      parse_mode='HTML')
                                                     except:
                                                         try:
@@ -1183,7 +1183,7 @@ def sjjsn(nome):
                                                                              '[^0-9]', '', ar[5].html) + '\n\n' +
                                                                          str(ar1[3].text) + '\nCPF/CNPJ: ' + re.sub(
                                                                              '[^0-9]', '', ar[
-                                                                                 10].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                                                                 10].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                                                          parse_mode='HTML')
                                                         except:
                                                             try:
@@ -1194,7 +1194,7 @@ def sjjsn(nome):
                                                                              str(ar1[2].text) + '\nCPF/CNPJ: ' + re.sub(
                                                                                  '[^0-9]', '',
                                                                                  ar[
-                                                                                     5].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                                                                     5].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                                                              parse_mode='HTML')
                                                             except:
                                                                 try:
@@ -1202,7 +1202,7 @@ def sjjsn(nome):
                                                                         ar1[1].text) + '\nCPF/CNPJ: ' + re.sub('[^0-9]',
                                                                                                                '',
                                                                                                                ar[
-                                                                                                                   0].html) + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                                                                                                   0].html) + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                                                                  parse_mode='HTML')
                                                                 except:
                                                                     bot.reply_to(nome, '<b>OPS, SEM RESULTADOS!</b>',
@@ -1210,7 +1210,7 @@ def sjjsn(nome):
                     except:
                         bot.reply_to(nome, '<b>ALGO DEU ERRADO :(</b>', parse_mode='HTML')
             else:
-                bot.reply_to(nome, '<b>✅ COMPRE BOT VIP @StarkVendasOFC ✅</b>',
+                bot.reply_to(nome, '<b>💰 COMPRE BOT VIP @StarkVendasOFC 💰</b>',
                              parse_mode='HTML')
 
 ###########
@@ -1250,7 +1250,7 @@ def bqpwi(men):
                         dados3 = str(ar1[3].text)
 
                         bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                      parse_mode='HTML')
                     except:
                         try:
@@ -1263,7 +1263,7 @@ def bqpwi(men):
                             dados2 = str(ar1[2].text)
 
                             bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                          parse_mode='HTML')
                         except:
                             try:
@@ -1271,12 +1271,12 @@ def bqpwi(men):
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
                                 bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                            '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                            '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                              parse_mode='HTML')
                             except:
                                 N = bot.reply_to(men, '<b>OPS, EMAIL NÃO ECONTRADO!</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC✅' '</b>',
+                bot.reply_to(men, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>',
                              parse_mode='HTML')
 
 ##
@@ -1316,7 +1316,7 @@ def parentes(men):
                         dados3 = str(ar1[3].text)
 
                         bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                    '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n' + '<code>' + dados3 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf3 + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                      parse_mode='HTML')
                     except:
                         try:
@@ -1329,7 +1329,7 @@ def parentes(men):
                             dados2 = str(ar1[2].text)
 
                             bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                        '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n' + '<code>' + dados2 + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf2 + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                          parse_mode='HTML')
                         except:
                             try:
@@ -1337,12 +1337,12 @@ def parentes(men):
                                 cpf = re.sub('[^0-9]', '', txt)
                                 dados = str(ar1[1].text)
                                 bot.reply_to(men, '<b>' '🔍 CONSULTA VIP 🔎' '</b>' + '\n\n' +
-                                            '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>By • @StarkVendasOFC\n\n</b>',
+                                            '<code>' + dados + '</code>' + '\n<b>CPF: </b>' + '<code>' + cpf + '</code>' + '\n\n<b>By × @StarkVendasOFC\n\n</b>',
                                              parse_mode='HTML')
                             except:
                                 N = bot.reply_to(men, '<b>OPS, PARENTES NÃO ECONTRADO!</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC✅' '</b>',
+                bot.reply_to(men, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>',
                              parse_mode='HTML')
 
 ##
@@ -1500,7 +1500,7 @@ def bijbbbgh(men):
                     except:
                         A = bot.reply_to(men, '<b>' 'OPS, NÃO ENCONTRADO!' '</b>', parse_mode='HTML')
             else:
-                bot.reply_to(men, '<b>' '✅ COMPRE BOT VIP @StarkVendasOFC✅' '</b>',
+                bot.reply_to(men, '<b>' '💰 COMPRE BOT VIP @StarkVendasOFC 💰' '</b>',
                              parse_mode='HTML')
 
 ##########
@@ -2077,14 +2077,14 @@ def bunda(message1):
                                          resp['result'][0]['pessoa']['socioDemografico']['profissao']) +
                                      '\n𝙍𝙀𝙉𝘿𝘼 𝙋𝙍𝙀𝙎𝙐𝙈𝙄𝘿𝘼:: ' + str(
                                          resp['result'][0]['pessoa']['socioDemografico'][
-                                             'rendaPresumida']) + '<b>' + '\n\nBy • @StarkVendasOFC\n\n' + '</b>',
+                                             'rendaPresumida']) + '<b>' + '\n\nBy × @StarkVendasOFC\n\n' + '</b>',
                                      parse_mode='HTML')
                     except:
                         bot.reply_to(message1, '<b>' + 'ERRO, VERIFIQUE O CPF' + '</b>', parse_mode='HTML')
 
             else:
                 bot.reply_to(message1,
-                             '<b>' + '✅ COMPRE BOT VIP@StarkVendasOFC✅' + '</b>',
+                             '<b>' + '💰 COMPRE BOT VIP@StarkVendasOFC 💰' + '</b>',
                              parse_mode='HTML')
 
 ##
@@ -2660,7 +2660,7 @@ def jhgfuhn(nome):
                     except:
                         bot.reply_to(nome, '<b>ALGO DEU ERRADO</b>', parse_mode='HTML')
             else:
-                bot.reply_to(nome, '<b>COMPRE SEU BOT VIP @StarkVendasOFC</b>',
+                bot.reply_to(nome, '<b>💰 COMPRE SEU BOT VIP @StarkVendasOFC 💰</b>',
                              parse_mode='HTML')
 
 bot.polling()
